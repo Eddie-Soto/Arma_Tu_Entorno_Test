@@ -1,0 +1,57 @@
+[05-Sep-2019 17:34:51 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/nikkenlatam/public_html/armatuentornotest/index.php on line 182
+[05-Sep-2019 17:35:03 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/nikkenlatam/public_html/armatuentornotest/index.php on line 182
+[05-Sep-2019 17:35:31 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/nikkenlatam/public_html/armatuentornotest/index.php on line 182
+[05-Sep-2019 17:35:32 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/nikkenlatam/public_html/armatuentornotest/index.php on line 182
+[05-Sep-2019 17:35:35 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/nikkenlatam/public_html/armatuentornotest/index.php on line 182
+[05-Sep-2019 17:35:42 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/nikkenlatam/public_html/armatuentornotest/index.php on line 182
+[05-Sep-2019 17:42:07 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/nikkenlatam/public_html/armatuentornotest/index.php on line 182
+[05-Sep-2019 17:42:59 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/nikkenlatam/public_html/armatuentornotest/index.php on line 182
+[06-Sep-2019 03:16:19 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/nikkenlatam/public_html/armatuentornotest/index.php on line 41
+[06-Sep-2019 03:17:20 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/nikkenlatam/public_html/armatuentornotest/index.php on line 41
+[06-Sep-2019 03:17:42 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/nikkenlatam/public_html/armatuentornotest/index.php on line 41
+[06-Sep-2019 03:18:23 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/nikkenlatam/public_html/armatuentornotest/index.php on line 195
+[06-Sep-2019 03:19:52 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/nikkenlatam/public_html/armatuentornotest/index.php on line 195
+[17-Dec-2019 22:06:55 UTC] PHP Fatal error:  Call to undefined function console_log() in /home/nikkenlatam/public_html/armatuentornotest/index.php on line 350
+[17-Dec-2019 22:07:06 UTC] PHP Fatal error:  Call to undefined function console_log() in /home/nikkenlatam/public_html/armatuentornotest/index.php on line 350
+[17-Dec-2019 22:08:18 UTC] PHP Fatal error:  Call to undefined function console_log() in /home/nikkenlatam/public_html/armatuentornotest/index.php on line 350
+[17-Dec-2019 22:09:00 UTC] PHP Parse error:  syntax error, unexpected 'as' (T_AS) in /home/nikkenlatam/public_html/armatuentornotest/index.php on line 350
+[17-Dec-2019 22:09:05 UTC] PHP Parse error:  syntax error, unexpected 'as' (T_AS) in /home/nikkenlatam/public_html/armatuentornotest/index.php on line 350
+[06-Apr-2020 18:13:31 UTC] PHP Parse error:  syntax error, unexpected 'line' (T_STRING) in /home/nikkenlatam/public_html/armatuentornotest/index.php on line 243
+[06-Apr-2020 18:15:24 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/nikkenlatam/public_html/armatuentornotest/index.php on line 89
+[06-Apr-2020 18:15:35 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/nikkenlatam/public_html/armatuentornotest/index.php on line 89
+[06-Apr-2020 19:42:48 UTC] PHP Fatal error:  Cannot redeclare connect_mk() (previously declared in /home/nikkenlatam/public_html/armatuentornotest/conexion.php:5) in /home/nikkenlatam/public_html/armatuentornotest/conexion.php on line 5
+[06-Apr-2020 19:43:39 UTC] PHP Fatal error:  Cannot redeclare connect_mk() (previously declared in /home/nikkenlatam/public_html/armatuentornotest/conexion.php:5) in /home/nikkenlatam/public_html/armatuentornotest/conexion.php on line 5
+[06-Apr-2020 19:56:14 UTC] PHP Fatal error:  Cannot redeclare connect_mk() (previously declared in /home/nikkenlatam/public_html/armatuentornotest/conexion.php:5) in /home/nikkenlatam/public_html/armatuentornotest/conexion.php on line 5
+[06-Apr-2020 19:56:42 UTC] PHP Fatal error:  Cannot redeclare connect_mk() (previously declared in /home/nikkenlatam/public_html/armatuentornotest/conexion.php:5) in /home/nikkenlatam/public_html/armatuentornotest/conexion.php on line 5
+[06-Apr-2020 19:58:10 UTC] PHP Fatal error:  Cannot redeclare connect_mk() (previously declared in /home/nikkenlatam/public_html/armatuentornotest/conexion.php:5) in /home/nikkenlatam/public_html/armatuentornotest/conexion.php on line 5
+[06-Apr-2020 20:02:12 UTC] PHP Fatal error:  Cannot redeclare connect_mk() (previously declared in /home/nikkenlatam/public_html/armatuentornotest/conexion.php:5) in /home/nikkenlatam/public_html/armatuentornotest/conexion.php on line 5
+[06-Apr-2020 20:03:13 UTC] PHP Fatal error:  Cannot redeclare connect_mk() (previously declared in /home/nikkenlatam/public_html/armatuentornotest/conexion.php:5) in /home/nikkenlatam/public_html/armatuentornotest/conexion.php on line 5
+[06-Apr-2020 20:03:48 UTC] PHP Fatal error:  Cannot redeclare connect_mk() (previously declared in /home/nikkenlatam/public_html/armatuentornotest/conexion.php:5) in /home/nikkenlatam/public_html/armatuentornotest/conexion.php on line 5
+[06-Apr-2020 20:04:29 UTC] PHP Fatal error:  Cannot redeclare connect_mk() (previously declared in /home/nikkenlatam/public_html/armatuentornotest/conexion.php:5) in /home/nikkenlatam/public_html/armatuentornotest/conexion.php on line 5
+[06-Apr-2020 20:10:25 UTC] PHP Fatal error:  Cannot redeclare connect_mk() (previously declared in /home/nikkenlatam/public_html/armatuentornotest/conexion.php:5) in /home/nikkenlatam/public_html/armatuentornotest/conexion.php on line 5
+[06-Apr-2020 20:10:40 UTC] PHP Fatal error:  Cannot redeclare connect_mk() (previously declared in /home/nikkenlatam/public_html/armatuentornotest/conexion.php:5) in /home/nikkenlatam/public_html/armatuentornotest/conexion.php on line 5
+[06-Apr-2020 20:10:42 UTC] PHP Fatal error:  Cannot redeclare connect_mk() (previously declared in /home/nikkenlatam/public_html/armatuentornotest/conexion.php:5) in /home/nikkenlatam/public_html/armatuentornotest/conexion.php on line 5
+[06-Apr-2020 20:11:56 UTC] PHP Fatal error:  Cannot redeclare connect_mk() (previously declared in /home/nikkenlatam/public_html/armatuentornotest/conexion.php:5) in /home/nikkenlatam/public_html/armatuentornotest/conexion.php on line 5
+[06-Apr-2020 20:14:13 UTC] PHP Fatal error:  Cannot redeclare connect_mk() (previously declared in /home/nikkenlatam/public_html/armatuentornotest/conexion.php:5) in /home/nikkenlatam/public_html/armatuentornotest/conexion.php on line 5
+[06-Apr-2020 20:14:46 UTC] PHP Fatal error:  Cannot redeclare connect_mk() (previously declared in /home/nikkenlatam/public_html/armatuentornotest/conexion.php:5) in /home/nikkenlatam/public_html/armatuentornotest/conexion.php on line 5
+[06-Apr-2020 20:18:26 UTC] PHP Fatal error:  Cannot redeclare connect_mk() (previously declared in /home/nikkenlatam/public_html/armatuentornotest/conexion.php:5) in /home/nikkenlatam/public_html/armatuentornotest/conexion.php on line 5
+[06-Apr-2020 20:18:56 UTC] PHP Fatal error:  Cannot redeclare connect_mk() (previously declared in /home/nikkenlatam/public_html/armatuentornotest/conexion.php:5) in /home/nikkenlatam/public_html/armatuentornotest/conexion.php on line 5
+[06-Apr-2020 20:19:58 UTC] PHP Fatal error:  Cannot redeclare connect_mk() (previously declared in /home/nikkenlatam/public_html/armatuentornotest/conexion.php:5) in /home/nikkenlatam/public_html/armatuentornotest/conexion.php on line 5
+[06-Apr-2020 20:49:11 UTC] PHP Parse error:  syntax error, unexpected '/' in /home/nikkenlatam/public_html/armatuentornotest/login-integration-incorporation.php on line 44
+[27-Aug-2020 19:33:23 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/nikkenlatam/public_html/armatuentornotest/functions.php on line 194
+[27-Aug-2020 19:33:34 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/nikkenlatam/public_html/armatuentornotest/functions.php on line 194
+[27-Aug-2020 19:33:57 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/nikkenlatam/public_html/armatuentornotest/functions.php on line 194
+[27-Aug-2020 19:34:02 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/nikkenlatam/public_html/armatuentornotest/functions.php on line 194
+[27-Aug-2020 19:35:10 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/nikkenlatam/public_html/armatuentornotest/functions.php on line 194
+[27-Aug-2020 19:36:04 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/nikkenlatam/public_html/armatuentornotest/functions.php on line 194
+[27-Aug-2020 19:36:33 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/nikkenlatam/public_html/armatuentornotest/functions.php on line 194
+[27-Aug-2020 19:40:44 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/nikkenlatam/public_html/armatuentornotest/functions.php on line 194
+[27-Aug-2020 19:40:47 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/nikkenlatam/public_html/armatuentornotest/functions.php on line 194
+[27-Aug-2020 19:41:16 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/nikkenlatam/public_html/armatuentornotest/functions.php on line 194
+[27-Aug-2020 19:55:57 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/nikkenlatam/public_html/armatuentornotest/functions.php on line 194
+[27-Aug-2020 19:56:00 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/nikkenlatam/public_html/armatuentornotest/functions.php on line 194
+[27-Aug-2020 19:56:07 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/nikkenlatam/public_html/armatuentornotest/functions.php on line 194
+[27-Aug-2020 19:57:47 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/nikkenlatam/public_html/armatuentornotest/functions.php on line 196
+[27-Aug-2020 19:58:35 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/nikkenlatam/public_html/armatuentornotest/functions.php on line 196
+[27-Aug-2020 19:58:50 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/nikkenlatam/public_html/armatuentornotest/functions.php on line 196
+[27-Oct-2020 17:32:29 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/nikkenlatam/public_html/armatuentornotest/assets/include/modal.php on line 111
