@@ -173,6 +173,61 @@ function Type_money($country)
 //Money type
 $var_KENKO_SEAT_KING = 0;
 $var_KENKO_SEAT_REGULAR = 0;
+
+
+//littlesteps
+function Valite_littlesteps_environment_one()
+{
+	
+	
+	$var_POWERBAND_VERDE = 0;
+	$var_POWERBAND_ROJO = 0;
+	$var_POWERBAND_LIMA = 0;
+	$var_POWERBAND_NEGRO19 = 0;
+	$var_POWERBAND_NEGRO22 = 0;
+	$var_POWERBAND_AMARILLO = 0;
+
+	foreach($_SESSION['products-ae'] as $posicion => $products)
+	{
+		list($product_detail, $quantity_detail, $environment_detail, $group_detail) = explode('-', $products);
+
+		$valor_array = explode(',', str_replace(" ", "", $environment_detail));
+		foreach($valor_array as $llave => $value)
+		{
+		    if($value == "STEPS")
+		    {
+		    	
+		    	if($product_detail == "19300"){ $var_POWERBAND_VERDE++; }
+		    	if($product_detail == "19303"){ $var_POWERBAND_ROJO++; }
+		    	if($product_detail == "19306"){ $var_POWERBAND_LIMA++; }
+		    	if($product_detail == "19980"){ $var_POWERBAND_NEGRO19++; }
+		    	if($product_detail == "19981"){ $var_POWERBAND_NEGRO22++; }
+		    	if($product_detail == "19982"){ $var_POWERBAND_AMARILLO++; }
+		    }
+
+		    $total_powerbands=0;
+		    $total_powerbands = $var_POWERBAND_VERDE+$var_POWERBAND_ROJO+$var_POWERBAND_LIMA+$var_POWERBAND_NEGRO19+$var_POWERBAND_NEGRO22+$var_POWERBAND_AMARILLO;
+		    /*
+				19300 - KENKO FASHION POWERBAND BRAZALETE VERDE 19 CM
+19303 - KENKO FASHION POWERBAND BRAZALETE ROJO 19 CM
+19306 - KENKO FASHION POWERBAND BRAZALETE VERDE LIMA 19 CM
+19980 - KENKO FASHION POWERBAND BRAZALETE NEGRO 19 CM
+19981 - KENKO FASHION POWERBAND BRAZALETE NEGRO 22 CM
+19982 -
+		    */
+		}
+	}
+
+	if($total_powerbands >= 5)
+	{
+		return 1;
+	}
+	else
+	{
+		return 0;
+	}
+}
+
 //Escolar
 function Valite_escolar_environment_one()
 {

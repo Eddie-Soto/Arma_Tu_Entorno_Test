@@ -198,7 +198,7 @@ if($environment == "littlesteps")
 
 	?>
 
-	<h2>Condici贸n m铆nima para <strong>Armar tu entorno Personal</strong><span tabindex="0" role="button" data-html="true" data-toggle="popover" data-trigger="focus" data-placement="bottom"
+	<h2>Condici贸n m铆nima para <strong>Armar tu entorno Little Steps</strong><span tabindex="0" role="button" data-html="true" data-toggle="popover" data-trigger="focus" data-placement="bottom"
 
     title="<b>Entorno Personal</b>"
 
@@ -211,7 +211,7 @@ if($environment == "littlesteps")
 	<div class="form-group">
 
 
-	<p class="help-block padding-bottom"><small><i class="color-green fa <?php if(Valite_personal_environment_one() == 0){ echo "fa-circle-o"; }else{ echo "fa-check-circle-o"; } ?> fa-2x" aria-hidden="true"></i>&nbsp;&nbsp;<strong><span class="color-green">1掳</span> Escoge al menos 5 unidades.</strong></small><br/><span style="font-size: 15px;"><small><u>Ten en cuenta que los productos adicionales que no pertenezcan al Entorno Personal <strong>no aplican para el descuento especial</strong>, a pesar de que ya se haya cumplido la condici贸n o regla del entorno.</u></small></span></p>
+	<p class="help-block padding-bottom"><small><i class="color-green fa <?php if(Valite_littlesteps_environment_one() == 0){ echo "fa-circle-o"; }else{ echo "fa-check-circle-o"; } ?> fa-2x" aria-hidden="true"></i>&nbsp;&nbsp;<strong><span class="color-green">1掳</span> Escoge al menos 5 unidades.</strong></small><br/><span style="font-size: 15px;"><small><u>Ten en cuenta que los productos adicionales que no pertenezcan a la promoci髇<strong>no aplican para el descuento especial</strong>, a pesar de que ya se haya cumplido la condici贸n o regla del entorno.</u></small></span></p>
 
 	<div class="row">
 
