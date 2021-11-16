@@ -1,8 +1,7 @@
 <?php 
 
 include('functions.php'); /*Funciones*/
-echo "no entro a ninguno";
-exit;
+
 /*vars*/
 //@$type = base64_decode($_GET["type"]);
 @$type='TVNCI';
@@ -13,6 +12,8 @@ $phone_abi = "";
 $cellular_abi = "";
 $email_abi = "";
 $type_client = "";
+echo "no entro a ninguno2".$type;
+exit;
 /*vars*/
 //	2021-11-09 17:02:33	2	CI	41503403	HERNANDEZ HERNáNDEZ , ALINE PAULINA	Directo		13988703		alina.pauline@gmail.com		5585317823
 if($type == "TVNCI")
@@ -21,7 +22,7 @@ if($type == "TVNCI")
 	/*$code_abi = base64_decode($_GET["sap_code"]);
 	$email_abi = base64_decode($_GET["email"]);
 	$country_abi = $_GET["country"];*/
-	$code_abi=41503403;
+	$code_abi='41503403';
 	$email_abi='alina.pauline@gmail.com';
 	$country_abi='2';
 	$type_client = "ab";
