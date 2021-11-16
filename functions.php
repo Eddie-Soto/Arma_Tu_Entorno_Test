@@ -773,7 +773,7 @@ function Valite_nutrition_environment_one()
 function Valite_environment()
 {
 	//Valite_littlesteps_environment_one
-	if($_SESSION['environment'] == "room")
+	if($_SESSION['environment'] == "littlesteps")
 	{
 		$one = Valite_littlesteps_environment_one();
 		
@@ -896,8 +896,32 @@ function Valite_environment()
 
 function Valite_environment_bar()
 {
+
+	if($_SESSION['environment'] == "littlesteps")
+	{
+
+		//littlesteps
+		
+		$one = Valite_littlesteps_environment_one();
+		
+		
+
+		$total = $one;
+		if($total == 0)
+		{
+			return 5;
+		}
+		else if($total == 1)
+		{
+			return 80;
+		}
+		
+	}
 	if($_SESSION['environment'] == "escolar")
 	{
+
+		//littlesteps
+
 		$one = Valite_escolar_environment_one();
 		$two = Valite_escolar_environment_two();
 		
