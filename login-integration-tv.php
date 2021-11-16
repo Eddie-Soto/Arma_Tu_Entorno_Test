@@ -90,8 +90,8 @@ if($code_abi != "")
 	header("location: index.php");
 	exit;
 }
-
-header ("Location: " . $_SERVER['HTTP_REFERER']);
+echo "no entro a ninguno";
+//header ("Location: " . $_SERVER['HTTP_REFERER']);
 exit;
 
 ?>
