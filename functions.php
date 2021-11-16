@@ -206,7 +206,7 @@ function Valite_littlesteps_environment_one()
 		    }
 
 		    $total_powerbands=0;
-		    $total_powerbands = $var_POWERBAND_VERDE+$var_POWERBAND_ROJO+$var_POWERBAND_LIMA+$var_POWERBAND_NEGRO19+$var_POWERBAND_NEGRO22+$var_POWERBAND_AMARILLO;
+		    $total_powerbands = ($var_POWERBAND_VERDE+$var_POWERBAND_ROJO+$var_POWERBAND_LIMA+$var_POWERBAND_NEGRO19+$var_POWERBAND_NEGRO22+$var_POWERBAND_AMARILLO);
 
 		    echo $total_powerbands;
 		    exit;
