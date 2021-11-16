@@ -772,6 +772,22 @@ function Valite_nutrition_environment_one()
 //Validate room environment
 function Valite_environment()
 {
+	//Valite_littlesteps_environment_one
+	if($_SESSION['environment'] == "room")
+	{
+		$one = Valite_littlesteps_environment_one();
+		
+		$total = $one;
+		
+		if($total >= 1)
+		{
+			return $_SESSION['rule_environment'] = 1;
+		}
+		else
+		{
+			return $_SESSION['rule_environment'] = 0;
+		}
+	}
 
 	if($_SESSION['environment'] == "room")
 	{
