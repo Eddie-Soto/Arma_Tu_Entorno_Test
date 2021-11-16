@@ -773,7 +773,7 @@ function Valite_nutrition_environment_one()
 function Valite_environment()
 {
 	//Valite_littlesteps_environment_one
-	if($_SESSION['environment'] == "littlesteps")
+	if($_SESSION['environment'] == "STEPS")
 	{
 		$one = Valite_littlesteps_environment_one();
 		
@@ -897,7 +897,7 @@ function Valite_environment()
 function Valite_environment_bar()
 {
 
-	if($_SESSION['environment'] == "littlesteps")
+	if($_SESSION['environment'] == "STEPS")
 	{
 
 		//littlesteps
