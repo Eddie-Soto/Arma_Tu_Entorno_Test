@@ -73,8 +73,7 @@ if($code_abi != "")
 {
 	session_name("armatuentorno");
 	session_start();
-echo " entro3".$code_abi;
-exit;
+
 	$_SESSION["code"] = $code_abi;
 	$_SESSION["name"] = $name_abi;
 	$_SESSION["country"] = $country_abi;
