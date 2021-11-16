@@ -15,6 +15,11 @@ include('../sessions.php');
         </div>
         <div class="collapse navbar-collapse">
           	<ul class="nav navbar-nav">
+              <li <?php if($environment == "room"){ echo 'class="active"'; } ?>>
+                  <a href="#" class="dropdown=toggle" onclick="Change_environment('littlesteps')">
+                  Promoción Little Steps &nbsp;&nbsp;<i class="fa fa-bed" aria-hidden="true"></i>
+                  </a>
+              </li>
               
              
               
