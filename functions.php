@@ -1,8 +1,8 @@
 <?php
 
 include('conexion.php');
-require_once('plugins/encrypt/Crypt.class.php'); //Libreria para encriptar la variable
-$key_secret = "13sIS4$2013*?1nF3mPN1KK3N";
+/*require_once('plugins/encrypt/Crypt.class.php'); //Libreria para encriptar la variable
+$key_secret = "13sIS4$2013*?1nF3mPN1KK3N";*/
 
 //Abi
 $created_abi_query = "";
