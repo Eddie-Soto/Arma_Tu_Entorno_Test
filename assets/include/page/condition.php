@@ -198,11 +198,11 @@ if($environment == "littlesteps")
 
 	?>
 
-	<h2>Condición mínima para <strong>Armar tu entorno de litle steps</strong><span tabindex="0" role="button" data-html="true" data-toggle="popover" data-trigger="focus" data-placement="bottom"
+	<h2>Condición mínima para <strong>Armar tu entorno Personal</strong><span tabindex="0" role="button" data-html="true" data-toggle="popover" data-trigger="focus" data-placement="bottom"
 
-    title="<b>Entorno Cocina</b>"
+    title="<b>Entorno Personal</b>"
 
-    data-content='<div class="text-justify"><img src="img/kitchen.png" alt="Cocina" style="float: left; padding: 0 10px 0 0"><small>Es el lugar donde con amor y dedicación se preparan las mejores recetas con las que se alimenta la familia. Los nutrientes que nos brinda la naturaleza en el agua, las frutas y verduras, son los protagonistas de cada preparación. Es el espacio para adquirir hábitos de alimentación y prácticas responsables, que mejoran nuestra calidad de vida y salud.</small></div>'>
+    data-content='<div class="text-justify"><img src="img/office.png" alt="Personal" style="float: left; padding: 0 10px 0 0"><small>Es el ambiente que acompaña y caracteriza a cada individuo. Cada persona elige cómo construir su entorno, en el que intervienen aspectos como hábitos de alimentación, actividades, prácticas deportivas, imagen personal, y la forma cómo se interactúa con cada espacio físico.</small></div>'>
 
     <i style="color:#333; cursor: pointer;" class="fa fa-info-circle" aria-hidden="true" data-toggle="tooltip" data-placement="left" title="Información sobre el entorno"></i></span></h2>
 
@@ -210,51 +210,20 @@ if($environment == "littlesteps")
 
 	<div class="form-group">
 
-	<p class="help-block padding-bottom"><small><i class="color-green fa <?php if(Valite_kitchen_environment_one() == 0){ echo "fa-circle-o"; }else{ echo "fa-check-circle-o"; } ?> fa-2x" aria-hidden="true"></i>&nbsp;&nbsp;<strong><span class="color-green">1°</span> Escoge uno de los siguientes productos</strong></small></p>
 
-		<div class="row">
+	<p class="help-block padding-bottom"><small><i class="color-green fa <?php if(Valite_personal_environment_one() == 0){ echo "fa-circle-o"; }else{ echo "fa-check-circle-o"; } ?> fa-2x" aria-hidden="true"></i>&nbsp;&nbsp;<strong><span class="color-green">1°</span> Escoge al menos 5 unidades.</strong></small><br/><span style="font-size: 15px;"><small><u>Ten en cuenta que los productos adicionales que no pertenezcan al Entorno Personal <strong>no aplican para el descuento especial</strong>, a pesar de que ya se haya cumplido la condición o regla del entorno.</u></small></span></p>
 
-			<div class="col-lg-4 col-sm-12 col-xs-12 col-md-12"><div style="cursor: pointer;"><img src="img/environment/kitchen-1.png" onclick="Send_product_search('Pimag Waterfall')" class="img-responsive center-block" alt="Pimag Waterfall"><span class="help-block text-environment">Pimag&reg; Waterfall</span></div></div>
+	<div class="row">
 
-			<?php 
+			<div class="col-lg-2 hidden-sm"></div>
 
+			<div class="col-lg-4 col-sm-6 col-xs-6 col-md-6"><div style="cursor: pointer;"><img src="img/environment/living-2.png" onclick="Send_product_search('KenkoLight')" class="img-responsive center-block" alt="Kenko Light"><span class="help-block text-environment">Kenko&reg; Light</span></div></div>
 
+			<div class="col-lg-4 col-sm-6 col-xs-6 col-md-6"><div style="cursor: pointer;"><img src="img/environment/living-3.png" onclick="Send_product_search('Kenko Seat')" class="img-responsive center-block" alt="Kenko Seat"><span class="help-block text-environment">Ki Kenko&reg; Seat</span></div></div>
 
-		if($country_abi == 11)
-
-		{
-
-			?>
-
-			<div class="col-lg-4 col-sm-12 col-xs-12 col-md-12"><div style="cursor: pointer;"><img src="img/environment/kitchen-2.png" onclick="Send_product_search('Pi Water')" class="img-responsive center-block" alt="Pi Water"><span class="help-block text-environment">Pi&reg; Water</span></div></div>
-
-			<?php 
-
-
-
-		}
-
-			?>
-
-			<div class="col-lg-4 col-sm-12 col-xs-12 col-md-12"><div style="cursor: pointer;"><img src="img/environment/kitchen-3.png" onclick="Send_product_search('Pimag Aqua Pour Deluxe')" class="img-responsive center-block" alt="Pimag Aqua Pour Deluxe"><span class="help-block text-environment">Pimag&reg; Aqua Pour Deluxe</span></div></div>
+			<div class="col-lg-2 hidden-sm"></div>
 
 		</div>
-
-	</div>
-
-	<hr class="line-format">
-
-	<div class="form-group">
-
-	<p class="help-block padding-bottom"><small><i class="color-green fa <?php if(Valite_kitchen_environment_two() == 0){ echo "fa-circle-o"; }else{ echo "fa-check-circle-o"; } ?> fa-2x" aria-hidden="true"></i>&nbsp;&nbsp;<strong><span class="color-green">2°</span> Selecciona el siguiente producto</strong></small></p>
-
-		<div class="row">
-
-			<div class="col-lg-12"><div style="cursor: pointer;"><img src="img/environment/kitchen-4.png" onclick="Send_product_search('Pimag Optimizer')" class="img-responsive center-block" alt="Pimag Optimizer"><span class="help-block text-environment">Pimag&reg; Optimizer</span></div></div>
-
-		</div>
-
-	</div>
 
 	<?php
 
