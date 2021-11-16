@@ -26,8 +26,7 @@ if($type == "TVNCI")
 	$email_abi='alina.pauline@gmail.com';
 	$country_abi='2';
 	$type_client = "ab";
-echo " entro".$email_abi;
-exit;
+
 	/*consultar asesor*/
 	list($created_abi_query, $country_abi_query, $type_abi_query, $code_abi_query, $name_abi_query, $range_abi_query, $state_abi_query, $code_sponsor_abi_query, $name_sponsor_abi_query, $email_abi_query, $phone_abi_query, $cellular_abi_query) = Search_ab($code_abi);
 	/*consultar asesor*/
@@ -35,6 +34,8 @@ exit;
 	$name_abi = $name_abi_query;
 	$phone_abi = $phone_abi_query;
 	$cellular_abi = $cellular_abi_query;
+	echo " entro2".$name_abi;
+exit;
 }
 elseif($type == "TVNCLUB")
 {
