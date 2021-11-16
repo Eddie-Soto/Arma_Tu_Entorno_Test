@@ -3,7 +3,8 @@
 include('functions.php'); /*Funciones*/
 
 /*vars*/
-@$type = base64_decode($_GET["type"]);
+//@$type = base64_decode($_GET["type"]);
+$type='TVNCI';
 $code_abi = "";
 $name_abi = "";
 $country_abi = "";
@@ -12,13 +13,16 @@ $cellular_abi = "";
 $email_abi = "";
 $type_client = "";
 /*vars*/
-
+//	2021-11-09 17:02:33	2	CI	41503403	HERNANDEZ HERNáNDEZ , ALINE PAULINA	Directo		13988703		alina.pauline@gmail.com		5585317823
 if($type == "TVNCI")
 {
 	/*Ingreso como Asesor*/
-	$code_abi = base64_decode($_GET["sap_code"]);
+	/*$code_abi = base64_decode($_GET["sap_code"]);
 	$email_abi = base64_decode($_GET["email"]);
-	$country_abi = $_GET["country"];
+	$country_abi = $_GET["country"];*/
+	$code_abi=41503403;
+	$email_abi='alina.pauline@gmail.com';
+	$country_abi='2';
 	$type_client = "ab";
 
 	/*consultar asesor*/
