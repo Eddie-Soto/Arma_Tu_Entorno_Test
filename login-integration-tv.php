@@ -1,7 +1,8 @@
 <?php 
 
 include('functions.php'); /*Funciones*/
-
+echo "no entro a ninguno";
+exit;
 /*vars*/
 //@$type = base64_decode($_GET["type"]);
 @$type='TVNCI';
