@@ -192,7 +192,7 @@ if($environment == "kitchen")
 
 }
 
-if($environment == "littlesteps")
+if($environment == "STEPS")
 
 {
 

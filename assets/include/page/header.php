@@ -15,8 +15,8 @@ include('../sessions.php');
         </div>
         <div class="collapse navbar-collapse">
           	<ul class="nav navbar-nav">
-              <li <?php if($environment == "littlesteps"){ echo 'class="active"'; } ?>>
-                  <a href="#" class="dropdown=toggle" onclick="Change_environment('littlesteps')">
+              <li <?php if($environment == "STEPS"){ echo 'class="active"'; } ?>>
+                  <a href="#" class="dropdown=toggle" onclick="Change_environment('STEPS')">
                   Promoción Little Steps &nbsp;&nbsp;<i class="fa fa-bed" aria-hidden="true"></i>
                   </a>
               </li>
