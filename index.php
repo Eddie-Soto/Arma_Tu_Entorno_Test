@@ -1,6 +1,5 @@
 <?php
-echo "entra";
-exit;
+
 include('assets/include/sessions.php');
 
 ?>
