@@ -1,5 +1,6 @@
 <?php
-
+echo "entra";
+exit;
 include('functions.php');
 
 //include('conexion.php');

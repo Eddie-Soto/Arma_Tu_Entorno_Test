@@ -4,7 +4,7 @@ include('functions.php'); /*Funciones*/
 
 /*vars*/
 //@$type = base64_decode($_GET["type"]);
-$type='TVNCI';
+@$type='TVNCI';
 $code_abi = "";
 $name_abi = "";
 $country_abi = "";
