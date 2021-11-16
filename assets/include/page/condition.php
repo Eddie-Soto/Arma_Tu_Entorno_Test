@@ -217,9 +217,9 @@ if($environment == "littlesteps")
 
 			<div class="col-lg-2 hidden-sm"></div>
 
-			<div class="col-lg-4 col-sm-6 col-xs-6 col-md-6"><div style="cursor: pointer;"><img src="img/environment/living-2.png" onclick="Send_product_search('KenkoLight')" class="img-responsive center-block" alt="Kenko Light"><span class="help-block text-environment">Kenko&reg; Light</span></div></div>
+			<div class="col-lg-4 col-sm-6 col-xs-6 col-md-6"><div style="cursor: pointer; display: inline-block;" data-dismiss="modal"><img src="img/brands-kenko-fashion/power_band.png" onclick="Send_product_search('POWERBAND')" alt="POWERBAND"><span class="help-block text-environment">Power Band</span></div></div>
 
-			<div class="col-lg-4 col-sm-6 col-xs-6 col-md-6"><div style="cursor: pointer;"><img src="img/environment/living-3.png" onclick="Send_product_search('Kenko Seat')" class="img-responsive center-block" alt="Kenko Seat"><span class="help-block text-environment">Ki Kenko&reg; Seat</span></div></div>
+			
 
 			<div class="col-lg-2 hidden-sm"></div>
 
