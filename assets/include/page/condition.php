@@ -181,9 +181,20 @@ if($environment == "kitchen")
 	<p class="help-block padding-bottom"><small><i class="color-green fa <?php if(Valite_kitchen_environment_two() == 0){ echo "fa-circle-o"; }else{ echo "fa-check-circle-o"; } ?> fa-2x" aria-hidden="true"></i>&nbsp;&nbsp;<strong><span class="color-green">2°</span> Selecciona el siguiente producto</strong></small></p>
 
 		<div class="row">
+			<?php if($country_abi == 2 || $country_abi == 1 || $country_abi == 8 || $country_abi == 4 || $country_abi == 5 ){ ?>
 
-			<div class="col-lg-12"><div style="cursor: pointer;"><img src="img/environment/kitchen-4.png" onclick="Send_product_search('Pimag Optimizer')" class="img-responsive center-block" alt="Pimag Optimizer"><span class="help-block text-environment">Pimag&reg; Optimizer</span></div></div>
+				<div class="col-lg-6"><div style="cursor: pointer;"><img src="img/environment/optimizergris.png" onclick="Send_product_search('Pimag Optimizer')" class="img-responsive center-block" alt="Pimag Optimizer"><span class="help-block text-environment">Pimag&reg; Optimizer</span></div></div>
 
+				<div class="col-lg-6"><div style="cursor: pointer;"><img src="img/environment/PIDROGEN_ATE.png" onclick="Send_product_search('PIMAG PIDROGEN')" class="img-responsive center-block" alt="PIMAG PIDROGEN"><span class="help-block text-environment">PIMAG &reg; PIDROGEN</span></div></div>
+
+			
+
+		<?php }else{ ?>
+				<div class="col-lg-6"><div style="cursor: pointer;"><img src="img/environment/kitchen-4.png" onclick="Send_product_search('Pimag Optimizer')" class="img-responsive center-block" alt="Pimag Optimizer"><span class="help-block text-environment">Pimag&reg; Optimizer</span></div></div>
+
+				<div class="col-lg-6"><div style="cursor: pointer;"><img src="img/environment/PIDROGEN_ATE.png" onclick="Send_product_search('PIMAG PIDROGEN')" class="img-responsive center-block" alt="PIMAG PIDROGEN"><span class="help-block text-environment">PIMAG &reg; PIDROGEN</span></div></div>
+
+			<?php } ?>
 		</div>
 
 	</div>
