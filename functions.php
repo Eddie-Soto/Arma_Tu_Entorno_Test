@@ -208,21 +208,16 @@ function Valite_littlesteps_environment_one()
 		    	if($product_detail == "19982"){ $var_POWERBAND_AMARILLO++; }
 
 		    	$total_powerbands=0;
-		    $total_powerbands = $var_POWERBAND_VERDE+$var_POWERBAND_ROJO+$var_POWERBAND_LIMA+$var_POWERBAND_NEGRO19+$var_POWERBAND_NEGRO22+$var_POWERBAND_AMARILLO;
+		    	$total_powerbands = $var_POWERBAND_VERDE+$var_POWERBAND_ROJO+$var_POWERBAND_LIMA+$var_POWERBAND_NEGRO19+$var_POWERBAND_NEGRO22+$var_POWERBAND_AMARILLO;
 
-		    	if(($brand_detail == 6 )
-			{
-				$counter = $counter + 1 + ($quantity_detail - 1);
+		    	if($brand_detail == 6 )
+				{
+					$counter = $counter + 1 + ($quantity_detail - 1);
+				}		   
+		    
 			}
-
-		    
-
-		    
-		   
-		    
 		}
 	}
-}
 
 	if($counter >= 5)
 	{
