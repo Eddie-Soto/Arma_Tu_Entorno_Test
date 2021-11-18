@@ -780,7 +780,7 @@ function Valite_environment()
 		
 		$total = $one;
 		
-		if($total >= 1)
+		if($total == 1)
 		{
 			return $_SESSION['rule_environment'] = 1;
 		}
@@ -898,23 +898,26 @@ function Valite_environment()
 function Valite_environment_bar()
 {
 
-	if($_SESSION['environment'] == "STEPS")
+	if($_SESSION['environment'] == "personal")
 	{
-
-		//littlesteps
-		
-		$one = Valite_littlesteps_environment_one();
-		
-		
+		$one = Valite_personal_environment_one();
 
 		$total = $one;
 		if($total == 0)
 		{
 			return 5;
 		}
-		else if($total == 1)
+	}
+
+	if($_SESSION['environment'] == "STEPS")
+	{
+
+		$one = Valite_personal_environment_one();
+
+		$total = $one;
+		if($total == 0)
 		{
-			return 80;
+			return 5;
 		}
 		
 	}
