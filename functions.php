@@ -213,6 +213,7 @@ function Valite_littlesteps_environment_one()
 		    	if($brand_detail == 6 || $brand_detail == 9 )
 			{
 				$counter = $counter + 1 + ($quantity_detail - 1);
+				$quantity_counter = $quantity_counter + 1 + ($quantity_detail - 1);
 			}		   
 		    
 			}
@@ -221,7 +222,7 @@ function Valite_littlesteps_environment_one()
 
 	if($counter >= 5)
 	{
-
+		echo $quantity_counter;
 		$_SESSION['products-ae']['5031']="1360-1---";
 		return 1;
 
