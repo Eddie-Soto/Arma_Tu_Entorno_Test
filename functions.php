@@ -187,6 +187,9 @@ function Valite_littlesteps_environment_one()
 	$var_POWERBAND_NEGRO22 = 0;
 	$var_POWERBAND_AMARILLO = 0;
 
+	$counter = 0;
+	$quantity_counter = 0;
+
 	foreach($_SESSION['products-ae'] as $posicion => $products)
 	{
 		list($product_detail, $quantity_detail, $environment_detail, $group_detail) = explode('-', $products);
@@ -205,9 +208,13 @@ function Valite_littlesteps_environment_one()
 		    	if($product_detail == "19982"){ $var_POWERBAND_AMARILLO++; }
 
 		    	$total_powerbands=0;
-		    $total_powerbands = ($var_POWERBAND_VERDE+$var_POWERBAND_ROJO+$var_POWERBAND_LIMA+$var_POWERBAND_NEGRO19+$var_POWERBAND_NEGRO22+$var_POWERBAND_AMARILLO);
+		    $total_powerbands = $var_POWERBAND_VERDE+$var_POWERBAND_ROJO+$var_POWERBAND_LIMA+$var_POWERBAND_NEGRO19+$var_POWERBAND_NEGRO22+$var_POWERBAND_AMARILLO;
 
-		    echo $total_powerbands;
+		    	if(($brand_detail == 6 )
+			{
+				$counter = $counter + 1 + ($quantity_detail - 1);
+			}
+
 		    }
 
 		    
@@ -223,7 +230,7 @@ function Valite_littlesteps_environment_one()
 		}
 	}
 
-	if($total_powerbands >= 5)
+	if($counter >= 5)
 	{
 		return 1;
 	}
