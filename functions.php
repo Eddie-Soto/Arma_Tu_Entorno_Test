@@ -222,15 +222,13 @@ function Valite_littlesteps_environment_one()
 	if($counter >= 5)
 	{
 
-		echo "ya tiene mas de 5";
-		 exit;
+		
 		return 1;
 
 	}
 	else
 	{
-		echo "no tiene mas de 5";
-		 exit;
+		
 		return 0;
 	}
 }
