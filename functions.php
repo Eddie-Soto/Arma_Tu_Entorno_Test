@@ -254,6 +254,7 @@ $regalo=0;
 	else
 	{
 		unset($_SESSION['products-ae']['9708']);
+		Valite_environment();
 		return 0;
 	}
 }
