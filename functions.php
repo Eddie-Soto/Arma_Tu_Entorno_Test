@@ -898,16 +898,7 @@ function Valite_environment()
 function Valite_environment_bar()
 {
 
-	if($_SESSION['environment'] == "personal")
-	{
-		$one = Valite_personal_environment_one();
-
-		$total = $one;
-		if($total == 0)
-		{
-			return 5;
-		}
-	}
+	
 
 	if($_SESSION['environment'] == "STEPS")
 	{
