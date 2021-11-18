@@ -221,10 +221,16 @@ function Valite_littlesteps_environment_one()
 
 	if($counter >= 5)
 	{
+
+		echo "ya tiene mas de 5";
+		 exit;
 		return 1;
+
 	}
 	else
 	{
+		echo "no tiene mas de 5";
+		 exit;
 		return 0;
 	}
 }
@@ -898,12 +904,12 @@ function Valite_environment()
 function Valite_environment_bar()
 {
 
-	
+
 
 	if($_SESSION['environment'] == "STEPS")
 	{
 
-		$one = Valite_personal_environment_one();
+		$one = Valite_littlesteps_environment_one();
 
 		$total = $one;
 		if($total == 0)
