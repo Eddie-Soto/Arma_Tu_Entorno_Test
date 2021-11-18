@@ -219,7 +219,7 @@ function Valite_littlesteps_environment_one()
 			}
 		}
 	}
-
+$regalo=0;
 	if ($quantity_counter >= 5 and $quantity_counter <=9) {
 		$regalo=1;
 	}elseif ($quantity_counter >=10 and $quantity_counter<=14 ) {
