@@ -210,10 +210,10 @@ function Valite_littlesteps_environment_one()
 		    	$total_powerbands=0;
 		    	$total_powerbands = $var_POWERBAND_VERDE+$var_POWERBAND_ROJO+$var_POWERBAND_LIMA+$var_POWERBAND_NEGRO19+$var_POWERBAND_NEGRO22+$var_POWERBAND_AMARILLO;
 
-		    	if($brand_detail == 9 )
-				{
-					$counter = $counter + 1 + ($quantity_detail - 1);
-				}		   
+		    	if(($brand_detail == 6 || $brand_detail == 7 || $brand_detail == 8 || $brand_detail == 9 || $brand_detail == 10) || $group_detail == "ANTIFAZ" || $group_detail == "TRAVEL" || $group_detail == "BOTELLA DEPORTIVA" || $product_detail == "1290")
+			{
+				$counter = $counter + 1 + ($quantity_detail - 1);
+			}		   
 		    
 			}
 		}
