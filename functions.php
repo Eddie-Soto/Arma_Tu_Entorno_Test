@@ -247,7 +247,7 @@ $regalo=0;
 	if($counter >= 5)
 	{
 		
-		$_SESSION['products-ae']['5031']="9708-".$regalo."---";
+		$_SESSION['products-ae']['9708']="9708-".$regalo."---";
 		return 1;
 
 	}
