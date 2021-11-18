@@ -194,7 +194,7 @@ function Valite_littlesteps_environment_one()
 		$valor_array = explode(',', str_replace(" ", "", $environment_detail));
 		foreach($valor_array as $llave => $value)
 		{
-		    if($value == "STEPS")
+		    if($value == "PERSONAL")
 		    {
 		    	
 		    	if($product_detail == "19300"){ $var_POWERBAND_VERDE++; }

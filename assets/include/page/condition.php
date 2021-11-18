@@ -148,7 +148,7 @@ if($environment == "kitchen")
 
 			<div class="col-lg-4 col-sm-12 col-xs-12 col-md-12"><div style="cursor: pointer;"><img src="img/environment/kitchen-1.png" onclick="Send_product_search('Pimag Waterfall')" class="img-responsive center-block" alt="Pimag Waterfall"><span class="help-block text-environment">Pimag&reg; Waterfall</span></div></div>
 
-			<?php if( $country_abi == 1 || $country_abi == 2 ){ ?>
+			<?php if( $country_abi == 1 ){ ?>
 
 				<div class="col-lg-4 col-sm-12 col-xs-12 col-md-12"><div style="cursor: pointer;"><img src="img/environment/piwatergris.png" onclick="Send_product_search('Pi Water')" class="img-responsive center-block" alt="Pi Water"><span class="help-block text-environment">Pi&reg; Water</span></div></div>
 
