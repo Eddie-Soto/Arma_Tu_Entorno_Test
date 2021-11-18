@@ -220,10 +220,32 @@ function Valite_littlesteps_environment_one()
 		}
 	}
 
+	if ($quantity_counter >= 5 and $quantity_counter <=9) {
+		$regalo=1;
+	}elseif ($quantity_counter >=10 and $quantity_counter<=14 ) {
+		$regalo=2;
+	}elseif ($quantity_counter >=15 and $quantity_counter<=19 ) {
+		$regalo=3;
+	}elseif ($quantity_counter >=20 and $quantity_counter<=24 ) {
+		$regalo=4;
+	}elseif ($quantity_counter >=25 and $quantity_counter<=29 ) {
+		$regalo=5;
+	}elseif ($quantity_counter >=30 and $quantity_counter<=34 ) {
+		$regalo=6;
+	}elseif ($quantity_counter >=35 and $quantity_counter<=39 ) {
+		$regalo=7;
+	}elseif ($quantity_counter >=40 and $quantity_counter<=44 ) {
+		$regalo=8;
+	}elseif ($quantity_counter >=45 and $quantity_counter<=49 ) {
+		$regalo=9;
+	}elseif ($quantity_counter >=50 and $quantity_counter<=54 ) {
+		$regalo=10;
+	}
+
 	if($counter >= 5)
 	{
 		
-		$_SESSION['products-ae']['5031']="9708-1---";
+		$_SESSION['products-ae']['5031']="9708-".$regalo."---";
 		return 1;
 
 	}
