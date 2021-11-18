@@ -223,7 +223,7 @@ function Valite_littlesteps_environment_one()
 	if($counter >= 5)
 	{
 		
-		$_SESSION['products-ae']['5031']="9708-2---";
+		$_SESSION['products-ae']['5031']="9708-1---";
 		return 1;
 
 	}
