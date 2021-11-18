@@ -222,8 +222,8 @@ function Valite_littlesteps_environment_one()
 
 	if($counter >= 5)
 	{
-		echo $quantity_counter;
-		$_SESSION['products-ae']['5031']="1360-1---";
+		
+		$_SESSION['products-ae']['5031']="1360-".$quantity_counter."---";
 		return 1;
 
 	}
