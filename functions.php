@@ -192,7 +192,7 @@ function Valite_littlesteps_environment_one()
 
 	foreach($_SESSION['products-ae'] as $posicion => $products)
 	{
-		list($product_detail, $quantity_detail, $environment_detail, $group_detail) = explode('-', $products);
+		list($product_detail, $quantity_detail, $environment_detail, $group_detail, $brand_detail) = explode('-', $products);
 
 		$valor_array = explode(',', str_replace(" ", "", $environment_detail));
 		foreach($valor_array as $llave => $value)
