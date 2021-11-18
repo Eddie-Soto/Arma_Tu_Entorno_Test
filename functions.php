@@ -240,6 +240,8 @@ $regalo=0;
 		$regalo=9;
 	}elseif ($quantity_counter >=50 and $quantity_counter<=54 ) {
 		$regalo=10;
+	}else{
+		$regalo=0;
 	}
 
 	if($counter >= 5)
