@@ -215,20 +215,14 @@ function Valite_littlesteps_environment_one()
 				$counter = $counter + 1 + ($quantity_detail - 1);
 			}
 
-		    }
+		    
 
 		    
 		   
-		    /*
-				19300 - KENKO FASHION POWERBAND BRAZALETE VERDE 19 CM
-19303 - KENKO FASHION POWERBAND BRAZALETE ROJO 19 CM
-19306 - KENKO FASHION POWERBAND BRAZALETE VERDE LIMA 19 CM
-19980 - KENKO FASHION POWERBAND BRAZALETE NEGRO 19 CM
-19981 - KENKO FASHION POWERBAND BRAZALETE NEGRO 22 CM
-19982 -
-		    */
+		    
 		}
 	}
+}
 
 	if($counter >= 5)
 	{
