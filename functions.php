@@ -179,7 +179,7 @@ $var_KENKO_SEAT_REGULAR = 0;
 function Valite_littlesteps_environment_one()
 {
 	
-	
+	header ("Refresh:0");
 	$var_POWERBAND_VERDE = 0;
 	$var_POWERBAND_ROJO = 0;
 	$var_POWERBAND_LIMA = 0;
@@ -254,7 +254,7 @@ $regalo=0;
 	else
 	{
 		unset($_SESSION['products-ae']['9708']);
-		header ("Refresh:0");
+		
 		return 0;
 		
 	}
