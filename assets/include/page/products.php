@@ -980,7 +980,7 @@ $('.input-number').change(function()
 
 
     Change_quantity(fieldName, valueCurrent);
-    Change_quantity(fieldName, valueCurrent);
+    
 
 
 

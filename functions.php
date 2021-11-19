@@ -256,7 +256,7 @@ $regalo=0;
 		unset($_SESSION['products-ae']['9708']);
 
 		return 0;
-		
+		header ("Refresh:0");
 	}
 }
 
