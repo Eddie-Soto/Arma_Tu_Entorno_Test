@@ -219,41 +219,53 @@ function Valite_littlesteps_environment_one()
 			}
 		}
 	}
-$regalo=0;
+	$regalo=0;
 	if ($quantity_counter >= 5 and $quantity_counter <=9) {
 		$regalo=1;
+		$_SESSION['products-ae']['19309P']="19309P-".$regalo."---";
 	}elseif ($quantity_counter >=10 and $quantity_counter<=14 ) {
 		$regalo=2;
+		$_SESSION['products-ae']['19309P']="19309P-".$regalo."---";
 	}elseif ($quantity_counter >=15 and $quantity_counter<=19 ) {
 		$regalo=3;
+
+		$_SESSION['products-ae']['19309P']="19309P-".$regalo."---";
 	}elseif ($quantity_counter >=20 and $quantity_counter<=24 ) {
 		$regalo=4;
+		$_SESSION['products-ae']['19309P']="19309P-".$regalo."---";
 	}elseif ($quantity_counter >=25 and $quantity_counter<=29 ) {
 		$regalo=5;
+		$_SESSION['products-ae']['19309P']="19309P-".$regalo."---";
 	}elseif ($quantity_counter >=30 and $quantity_counter<=34 ) {
 		$regalo=6;
+		$_SESSION['products-ae']['19309P']="19309P-".$regalo."---";
 	}elseif ($quantity_counter >=35 and $quantity_counter<=39 ) {
 		$regalo=7;
+		$_SESSION['products-ae']['19309P']="19309P-".$regalo."---";
 	}elseif ($quantity_counter >=40 and $quantity_counter<=44 ) {
 		$regalo=8;
+		$_SESSION['products-ae']['19309P']="19309P-".$regalo."---";
 	}elseif ($quantity_counter >=45 and $quantity_counter<=49 ) {
 		$regalo=9;
+		$_SESSION['products-ae']['19309P']="19309P-".$regalo."---";
 	}elseif ($quantity_counter >=50 and $quantity_counter<=54 ) {
 		$regalo=10;
+		$_SESSION['products-ae']['19309P']="19309P-".$regalo."---";
 	}else{
 		$regalo=0;
+		unset($_SESSION['products-ae']['19309P']);
 	}
 
 	if($counter >= 5)
 	{
 		
-		$_SESSION['products-ae']['19309P']="19309P-".$regalo."---";
+		
 		return 1;
 
 	}
 	else
 	{
-		unset($_SESSION['products-ae']['19309P']);
+		
 		
 		return 0;
 		
