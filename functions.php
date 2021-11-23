@@ -219,6 +219,7 @@ function Valite_littlesteps_environment_one()
 			}
 		}
 	}
+	echo $quantity_counter;
 	$regalo=0;
 	if ($quantity_counter >= 5 and $quantity_counter <=9) {
 		$regalo=1;
