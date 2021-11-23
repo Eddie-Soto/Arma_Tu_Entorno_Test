@@ -68,7 +68,7 @@ $total_point = $_POST["total_point"];
 				else
 				{
 					?>
-					<h2><strong><span style="font-size: 15px;">DESCUENTO ENTORNO:</span> -<?php echo $simbol . number_format($total - $total_environment, 2); if(($total - $total_environment) == 0){ ?><script>View_product();</script><?php } ?></strong></h2>
+					<h2><strong><span style="font-size: 15px;">DESCUENTO ENTORNOssss:</span> -<?php echo $simbol . number_format($total - $total_environment, 2); if(($total - $total_environment) == 0){ ?><script>View_product();</script><?php } ?></strong></h2>
 					<h2><strong>TOTAL A PAGAR: <u><?php echo $simbol . number_format($total_environment, 2) ?></u></strong></h2>
 					<?php
 				}
