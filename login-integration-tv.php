@@ -44,8 +44,8 @@ if($type == "TVNCI")
 	/*$code_abi = base64_decode($_GET["sap_code"]);
 	$email_abi = base64_decode($_GET["email"]);
 	$country_abi = $_GET["country"];*/
-	$code_abi='31499703';
-	$email_abi='yolanda-zarate@hotmail.com';
+	$code_abi='40901503';
+	$email_abi='gusalonso@yahoo.com';
 	$country_abi='10';
 	$type_client = "ab";
 
