@@ -20,7 +20,21 @@ $type_client = "";
 
 //PER '2019-05-03 22:50:01', '3', 'CI', '22718303', 'LAULE GUTIERREZ YESSICA MARIEXCE', 'Directo', 'LIMA', '12484903', 'BUCHHOLTZ DELGADO DE BABATSIAS KARLA', 'laule.yessica@gmail.com', '973107729', '973107729'
 
-//ECU 
+//ECU '2019-04-22 00:00:00', '9', 'CI', '22552903', 'PACHECO MARLENE', 'Directo', 'EL ORO', '11787103', 'AJILA FREIRE  CHELA NARCISA', '  marlenepa59@hotmail.com ', '0986695806', '0986695806'
+
+//PAN '2019-04-30 07:40:01', '5', 'CI', '22634903', 'CUCALON MARTHA', 'Directo', 'Panamá', '3278603', 'DELGADO GONZALEZ  ANDRES AQUILES', 'mcucalon25@gmail.com', '66765096', '66765096'
+
+//GTM '2018-12-06 13:55:01', '6', 'CI', '21068103', 'CASTILLO JIMENEZ MILDRED DEL MILAGRO', 'Directo', 'Guatemala', '5705303', 'RODAS JULIO CESAR', 'mildredcasjim@hotmail.com', '54522996', '54522996'
+
+
+//SLV '2019-08-20 00:00:00', '7', 'CI', '18480803', 'SIMAN SIRI  MARIA TERESA', 'Directo', 'San Salvador', '16939803', 'NEGOCIO CON VITALIDAD SLV', 'mtsiman@gmail.com', '(503)7730 0313', ''
+
+
+//CRI '2019-03-06 20:00:01', '8', 'CI', '22148503', 'RODRIGUEZ QUESADA ZULLY MA', 'Directo', 'San Jose', '12128803', 'Paniagua Arguello  Sianie', 'zully_13@hotmail.com', '87147603', '87147603'
+
+
+//CHL'1198123', '2019-10-30 23:10:01', '10', '1', 'CI', '244709032', NULL, 'MORALES PIMENTEL, ALEX TEODORO', 'Directo', '', '18467203', 'VILLAFUERTE CAMPOS  LIVIA GABRIELA', 'alexteo85@hotmail.com_depuracion_2021011653940', '', '922421875', '1', '1', '0', '1', '0', '0', '0', '0', '0', '6cl4nHQECtM=', '2020-01-16 10:15:00', NULL, '1'
+
 if($type == "TVNCI")
 {
 
@@ -28,9 +42,9 @@ if($type == "TVNCI")
 	/*$code_abi = base64_decode($_GET["sap_code"]);
 	$email_abi = base64_decode($_GET["email"]);
 	$country_abi = $_GET["country"];*/
-	$code_abi='22718303';
-	$email_abi='laule.yessica@gmail.com';
-	$country_abi='3';
+	$code_abi='22552903';
+	$email_abi='marlenepa59@hotmail.com';
+	$country_abi='4';
 	$type_client = "ab";
 
 	/*consultar asesor*/
