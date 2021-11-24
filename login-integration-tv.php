@@ -14,7 +14,13 @@ $email_abi = "";
 $type_client = "";
 
 /*vars*/
-//	2021-11-09 17:02:33	2	CI	41503403	HERNANDEZ HERNáNDEZ , ALINE PAULINA	Directo		13988703		alina.pauline@gmail.com		5585317823
+//MEX	2021-11-09 17:02:33	2	CI	41503403	HERNANDEZ HERNáNDEZ , ALINE PAULINA	Directo		13988703		alina.pauline@gmail.com		5585317823
+
+//COL '2021-09-28 08:32:10', '1', 'CI', '40901503', 'CARIBBEAN LEGAL ADVISERS', 'Directo', '', '12658803', '', 'gusalonso@yahoo.com', '', '3173788870'
+
+//PER '2019-05-03 22:50:01', '3', 'CI', '22718303', 'LAULE GUTIERREZ YESSICA MARIEXCE', 'Directo', 'LIMA', '12484903', 'BUCHHOLTZ DELGADO DE BABATSIAS KARLA', 'laule.yessica@gmail.com', '973107729', '973107729'
+
+//ECU 
 if($type == "TVNCI")
 {
 
@@ -22,9 +28,9 @@ if($type == "TVNCI")
 	/*$code_abi = base64_decode($_GET["sap_code"]);
 	$email_abi = base64_decode($_GET["email"]);
 	$country_abi = $_GET["country"];*/
-	$code_abi='37378503';
-	$email_abi='ilsemjm@gmail.com';
-	$country_abi='6';
+	$code_abi='22718303';
+	$email_abi='laule.yessica@gmail.com';
+	$country_abi='3';
 	$type_client = "ab";
 
 	/*consultar asesor*/
