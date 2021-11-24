@@ -29,7 +29,7 @@ $total_point = $_POST["total_point"];
 	      	<div data-percentage="0%" style="width: <?php if($rule_environment == 1 || $rule_environment == 2){ echo "100"; }else{ echo Valite_environment_bar(); } ?>%;" class="progress-bar progress-bar-<?php if($rule_environment == 1){ echo "success"; }else{ echo "warning"; } ?> loading" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
 	    </div>
 	    <?php
-	    if($rule_environment == 1)
+	    if($rule_environment == 1 || $rule_environment == 2)
 	    {
 	    	?><small><strong>¡Genial!</strong>, ahora puedes disfrutar de los beneficios de arma tu entorno.</small><?php
 	    }
