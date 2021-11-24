@@ -55,7 +55,7 @@ foreach($_SESSION['products-ae'] as $posicion => $products)
 	list($product_detail, $quantity_detail, $environment_detail, $group_detail, $brand_detail) = explode('-', $products);
 
 
-if ($product_detail != "19300" and $product_detail != "19303" and $product_detail != "19306" and $product_detail != "19980" and $product_detail != "19981" and $product_detail != "19982") {
+
 	# code...
 
 	if($country_abi == 9) //Precios FULL Ecuador
@@ -92,6 +92,18 @@ if ($product_detail != "19300" and $product_detail != "19303" and $product_detai
 
 			$insert_case_code_full = "'FM') and H0.pais = T0.pais)";
 
+		}else if ($product_detail == "19300" and $product_detail == "19303" and $product_detail == "19306" and $product_detail == "19980" and $product_detail == "19981" and $product_detail == "19982") {
+
+			$insert_case = "'') and H0.pais = T0.pais), 0)";
+
+			$insert_case_full = "'') and H0.pais = T0.pais), 0)";
+
+
+
+			$insert_case_code = "'') and H0.pais = T0.pais)";
+
+			$insert_case_code_full = "'') and H0.pais = T0.pais)";
+
 		}
 
 		else
@@ -112,7 +124,7 @@ if ($product_detail != "19300" and $product_detail != "19303" and $product_detai
 
 	}
 
-	}
+	
 
 
 
