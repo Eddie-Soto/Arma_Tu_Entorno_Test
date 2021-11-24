@@ -20,7 +20,8 @@ $type_client = "";
 
 //PER '2019-05-03 22:50:01', '3', 'CI', '22718303', 'LAULE GUTIERREZ YESSICA MARIEXCE', 'Directo', 'LIMA', '12484903', 'BUCHHOLTZ DELGADO DE BABATSIAS KARLA', 'laule.yessica@gmail.com', '973107729', '973107729'
 
-//ECU '2019-04-22 00:00:00', '9', 'CI', '22552903', 'PACHECO MARLENE', 'Directo', 'EL ORO', '11787103', 'AJILA FREIRE  CHELA NARCISA', '  marlenepa59@hotmail.com ', '0986695806', '0986695806'
+//ECU '1188557', '2019-04-29 11:40:01', '4', '1', 'CI', '22608303', NULL, 'JIMENA AUGUSTA PERALTA LOPEZ', 'Directo', 'PICHINCHA', '9614103', 'MIRANDA CALDERON  VICTOR XAVIER', 'jimenaperaltal@hotmail.com', '593981378838', '593981378838', '1', '1', '0', '1', '0', '0', '1', '0', '0', 'ZeTE3tWxGkLcEAvUtbBInA==', '2021-11-05 23:55:51', 'SIERRA', '1'
+
 
 //PAN '2019-04-30 07:40:01', '5', 'CI', '22634903', 'CUCALON MARTHA', 'Directo', 'Panamá', '3278603', 'DELGADO GONZALEZ  ANDRES AQUILES', 'mcucalon25@gmail.com', '66765096', '66765096'
 
@@ -42,8 +43,8 @@ if($type == "TVNCI")
 	/*$code_abi = base64_decode($_GET["sap_code"]);
 	$email_abi = base64_decode($_GET["email"]);
 	$country_abi = $_GET["country"];*/
-	$code_abi='22552903';
-	$email_abi='marlenepa59@hotmail.com';
+	$code_abi='22608303';
+	$email_abi='jimenaperaltal@hotmail.com';
 	$country_abi='4';
 	$type_client = "ab";
 
