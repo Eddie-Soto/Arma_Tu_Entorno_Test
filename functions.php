@@ -939,7 +939,7 @@ function Valite_environment_bar()
 		$total = $one;
 		if($total == 1)
 		{
-			return 80;
+			return 100;
 		}
 		
 	}
