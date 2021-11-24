@@ -937,9 +937,9 @@ function Valite_environment_bar()
 		$one = Valite_littlesteps_environment_one();
 
 		$total = $one;
-		if($total == 0)
+		if($total == 1)
 		{
-			return 5;
+			return 80;
 		}
 		
 	}
