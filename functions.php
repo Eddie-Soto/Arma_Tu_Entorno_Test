@@ -813,7 +813,7 @@ function Valite_environment()
 		
 		if($total == 1)
 		{
-			return $_SESSION['rule_environment'] = 1;
+			return $_SESSION['rule_environment'] = 2;
 		}
 		else
 		{
