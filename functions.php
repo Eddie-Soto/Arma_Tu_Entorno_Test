@@ -240,6 +240,26 @@ function Valite_littlesteps_environment_one()
 		$regalo=9;
 	}elseif ($quantity_counter >=50 and $quantity_counter<=54 ) {
 		$regalo=10;
+	}elseif ($quantity_counter >=55 and $quantity_counter<=59 ) {
+		$regalo=11;
+	}elseif ($quantity_counter >=60 and $quantity_counter<=64 ) {
+		$regalo=12;
+	}elseif ($quantity_counter >=65 and $quantity_counter<=69 ) {
+		$regalo=13;
+	}elseif ($quantity_counter >=70 and $quantity_counter<=74 ) {
+		$regalo=14;
+	}elseif ($quantity_counter >=75 and $quantity_counter<=79 ) {
+		$regalo=15;
+	}elseif ($quantity_counter >=80 and $quantity_counter<=84 ) {
+		$regalo=16;
+	}elseif ($quantity_counter >=85 and $quantity_counter<=89 ) {
+		$regalo=17;
+	}elseif ($quantity_counter >=90 and $quantity_counter<=94 ) {
+		$regalo=18;
+	}elseif ($quantity_counter >=95 and $quantity_counter<=99 ) {
+		$regalo=19;
+	}elseif ($quantity_counter >=100 and $quantity_counter<=104 ) {
+		$regalo=20;
 	}else{
 		$regalo=0;
 	}
