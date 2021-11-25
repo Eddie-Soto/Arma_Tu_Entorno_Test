@@ -764,6 +764,11 @@ foreach($_SESSION['products-ae'] as $posicion => $products)
 		                    		}
 
 		                    	}
+		                    	/*if ($rule_environment == 2) {
+		                    		if ($environment == "STEPS") {
+		                    			#$
+		                    		}
+		                    	}*/
 
 		                    	else
 
