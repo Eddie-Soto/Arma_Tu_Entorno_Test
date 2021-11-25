@@ -14,7 +14,8 @@ $email_abi = "";
 $type_client = "";
 
 /*vars*/
-//MEX	2021-11-09 17:02:33	2	CI	41503403	HERNANDEZ HERNáNDEZ , ALINE PAULINA	Directo		13988703		alina.pauline@gmail.com		5585317823
+//MEX	'1206756', '2020-02-27 13:30:01', '2', '1', 'CI', '26357703', NULL, 'CARRASCO CARBAJAL REYNA DENISE', 'Directo', 'Estado de México', '19184303', 'MORALES HERNANDEZ, ROMANA ELIZABETH', 'carrasco.den@gmail.com', '7224069833', '7224069833', '1', '1', '0', '1', '0', '0', '1', '0', '0', 'riKNKz5GJKPgS16hR/sGYg==', '2021-09-21 14:04:13', '1001', '1'
+
 
 //COL '2021-09-28 08:32:10', '1', 'CI', '40901503', 'CARIBBEAN LEGAL ADVISERS', 'Directo', '', '12658803', '', 'gusalonso@yahoo.com', '', '3173788870'
 
@@ -44,8 +45,8 @@ if($type == "TVNCI")
 	/*$code_abi = base64_decode($_GET["sap_code"]);
 	$email_abi = base64_decode($_GET["email"]);
 	$country_abi = $_GET["country"];*/
-	$code_abi='41503403';
-	$email_abi='alina.pauline@gmail.com';
+	$code_abi='26357703';
+	$email_abi='carrasco.den@gmail.com';
 	$country_abi='2';
 	$type_client = "ab";
 
