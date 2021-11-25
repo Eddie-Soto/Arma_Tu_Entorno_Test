@@ -4,7 +4,7 @@ include('../sessions.php');
 include('../../../functions.php');
 
 //valores
-$regalo = $_POST["regalo"];
+$regalo = $_SESSION["regalo"];
 $simbol = $_POST["simbol"];
 $total = $_POST["total"];
 $total_environment = $_POST["total_environment"];
@@ -98,8 +98,8 @@ $total_point = $_POST["total_point"];
 			else
 			{
 				if ($rule_environment == 2 and $country_abi!= 2 and $country_abi!=6) {
-					?><h6 style="color: red !important;"><strong>En el siguiente resumen se desglosa en tu compra el descuento por el monto de tus obsequios </u></strong></h6>
-					<h2><strong>TOTAL A PAGAR: <?php echo $regalo; ?>  <u><?php echo $simbol . number_format($total, 2) ?></u></strong></h2>
+					?><h6 style="color: red !important;"><strong><?php echo $regalo; ?>En el siguiente resumen se desglosa en tu compra el descuento por el monto de tus obsequios </u></strong></h6>
+					<h2><strong>TOTAL A PAGAR:   <u><?php echo $simbol . number_format($total, 2) ?></u></strong></h2>
 					<?php
 				}else{
 				?><h2><strong>TOTAL A PAGAR: <u><?php echo $simbol . number_format($total, 2) ?></u></strong></h2><?php
