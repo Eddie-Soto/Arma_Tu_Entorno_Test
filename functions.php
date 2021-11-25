@@ -264,6 +264,8 @@ function Valite_littlesteps_environment_one()
 		$regalo=0;
 	}
 
+	$_SESSION['regalo'] = $regalo;
+
 	if($counter >= 5)
 	{
 		
