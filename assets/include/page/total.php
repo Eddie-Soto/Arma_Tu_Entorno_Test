@@ -87,6 +87,12 @@ $total_point = $_POST["total_point"];
 				<h2><strong><span style="font-size: 15px;">DESCUENTO 20%:</span> -<?php echo $simbol . number_format($total_retail, 2) ?></strong></h2>
 				<h2><strong><span style="font-size: 15px;">TOTAL A PAGAR:</span> <u><?php echo $simbol . number_format($total - $total_retail, 2) ?></u></strong></h2>
 				<?php
+			}elseif ($rule_environment==2 and $country_abi!= 2 and $country_abi!=6) {
+				?>
+				<h2><strong><span style="font-size: 15px;">TOTAL:</span> <?php echo $simbol . number_format($total, 2) ?></strong></h2>
+				<h2><strong><span style="font-size: 15px;">DESCUENTO OBSEQUIO:</span> -<?php echo $simbol . number_format($total_environment, 2) ?></strong></h2>
+				<h2><strong><span style="font-size: 15px;">TOTAL A PAGAR:</span> <u><?php echo $simbol . number_format($total - $total_environment, 2) ?></u></strong></h2>
+				<?php
 			}
 			else
 			{
