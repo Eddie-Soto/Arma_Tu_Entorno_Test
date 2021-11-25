@@ -18,6 +18,8 @@ $total_vc_environment = $_POST["total_vc_environment"];
 $total_point = $_POST["total_point"];
 //valores
 
+$precio_item_country="20800";
+
 ?>
 <div class="col-lg-5 col-md-12 text-center condition-bar">
 	<?php
@@ -97,9 +99,11 @@ $total_point = $_POST["total_point"];
 			}*/
 			else
 			{
+				$descuento_regalo=$precio_item_country * $regalo;
 				if ($rule_environment == 2 and $country_abi!= 2 and $country_abi!=6) {
-					?><h6 style="color: red !important;"><strong><?php echo $regalo; ?>En el siguiente resumen se desglosa en tu compra el descuento por el monto de tus obsequios </u></strong></h6>
-					<h2><strong>TOTAL A PAGAR:   <u><?php echo $simbol . number_format($total, 2) ?></u></strong></h2>
+					?><h2><strong><span style="font-size: 15px;">TOTAL:</span> <?php echo $simbol . number_format($total, 2) ?></strong></h2>
+				<h2><strong><span style="font-size: 15px;">DESCUENTO OBSEQUIO:</span> -<?php echo $simbol . number_format($descuento_regalo, 2) ?></strong></h2>
+				<h2><strong><span style="font-size: 15px;">TOTAL A PAGAR:</span> <u><?php echo $simbol . number_format($total - $descuento_regalo, 2) ?></u></strong></h2>
 					<?php
 				}else{
 				?><h2><strong>TOTAL A PAGAR: <u><?php echo $simbol . number_format($total, 2) ?></u></strong></h2><?php
