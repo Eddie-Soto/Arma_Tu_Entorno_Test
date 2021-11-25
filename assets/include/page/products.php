@@ -814,7 +814,7 @@ foreach($_SESSION['products-ae'] as $posicion => $products)
 
 					          	</span>
 
-					          	<input type="text" name="quant[<?php echo $code_product ?>-<?php echo $environment_detail ?>-<?php echo $group_detail ?>-<?php echo $brand_detail ?>]" class="form-control input-number" value="<?php echo $quantity_detail ?>" min="1" max="10">
+					          	<input type="text" name="quant[<?php echo $code_product ?>-<?php echo $environment_detail ?>-<?php echo $group_detail ?>-<?php echo $brand_detail ?>]" class="form-control input-number" value="<?php echo $quantity_detail ?>" min="1"<?php if($code_product == "19300" || $code_product == "19303" || $code_product == "19306" || $code_product == "19980" || $code_product == "19981" || $code_product == "19982" ){ ?> max="100" <?php }else{ ?> max="10" <?php } ?>>
 
 					          	<span class="input-group-btn">
 
@@ -1066,7 +1066,8 @@ $(".input-number").keydown(function (e)
 </script>
 
 <script>Condition('<?php echo $environment ?>');</script>
-
+<!--function Total(simbol, total, total_environment, total_vc, total_vc_environment, total_point, total_retail, total_retail_environment, total_vc, total_vc_environment)
+-->
 <script>Total('<?php echo $simbol_product ?>', '<?php echo $total_sum ?>', '<?php echo $total_environment_sum ?>', '<?php echo $total_vc_sum ?>', '<?php echo $total_vc_environment_sum ?>', '<?php echo $total_point_sum ?>', '<?php echo $total_menudeo_sum ?>', '<?php echo $total_menudeo_environment_sum ?>', '<?php echo $total_vc_sum ?>', '<?php echo $total_vc_environment_sum ?>', '<?php echo $total_point_sum ?>');</script>
 
 <!-- Funcion para la cantidad -->
