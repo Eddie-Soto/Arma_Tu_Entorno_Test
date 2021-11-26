@@ -17,8 +17,24 @@ $total_vc = $_POST["total_vc"];
 $total_vc_environment = $_POST["total_vc_environment"];
 $total_point = $_POST["total_point"];
 //valores
+if ($country_abi==1) {
+	$precio_item_country="76000.00 ";
+}elseif ($country_abi ==3) {
+	$precio_item_country="92.00";
+}elseif ($country_abi ==4) {
+	$precio_item_country="25.00";
+}elseif ($country_abi ==5) {
+	$precio_item_country="25.00";
+}elseif ($country_abi ==7) {
+	$precio_item_country="21.00";
+}elseif ($country_abi ==8) {
+	$precio_item_country="14600.00 ";
+}elseif ($country_abi ==10) {
+	$precio_item_country="20800.00 ";
+}else{
+	$precio_item_country="0";
+}
 
-$precio_item_country="20800";
 
 ?>
 <div class="col-lg-5 col-md-12 text-center condition-bar">
