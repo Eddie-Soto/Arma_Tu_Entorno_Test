@@ -10,5 +10,5 @@ list($product, $environment, $group, $brand) = explode('-', $product);
 //Editar producto
 $_SESSION['products-ae']["$product"]="$product-$quantity-$environment-$group-$brand";
 //Editar producto
-echo Valite_environment();
+
 ?>
