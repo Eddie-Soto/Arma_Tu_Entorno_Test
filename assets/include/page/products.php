@@ -1,6 +1,6 @@
 <?php
 
-echo Valite_environment();
+
 
 include('../sessions.php');
 
