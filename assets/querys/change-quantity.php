@@ -1,6 +1,5 @@
 <?php
-include('../../functions.php');
-echo Valite_environment();
+
 @session_name("armatuentorno");
 @session_start();
 $product = $_POST["product"];
