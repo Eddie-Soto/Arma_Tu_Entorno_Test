@@ -142,7 +142,7 @@ if($environment == "kitchen")
 
 	<div class="form-group">
 
-	<p class="help-block padding-bottom"><small><i class="color-green fa <?php if(Valite_kitchen_environment_one() == 0){ echo "fa-circle-o"; }else{ echo "fa-check-circle-o"; } ?> fa-2x" aria-hidden="true"></i>&nbsp;&nbsp;<strong><span class="color-green">1°</span> Escoge uno de los siguientes productos</strong></small></p>
+	<p class="help-block padding-bottom"><small><i class="color-green fa <?php if(Valite_kitchen_environment_one() == 0){ echo "fa-circle-o"; }else{  echo "fa-check-circle-o"; } ?> fa-2x" aria-hidden="true"></i>&nbsp;&nbsp;<strong><span class="color-green">1°</span> Escoge uno de los siguientes productos</strong></small></p>
 
 		<div class="row">
 
@@ -219,7 +219,7 @@ if($environment == "STEPS")
 	<div class="form-group">
 
 
-	<p class="help-block padding-bottom"><small><i class="color-green fa <?php if(Valite_littlesteps_environment_one() == 0){ echo "fa-circle-o"; }else{ echo "fa-check-circle-o"; } ?> fa-2x" aria-hidden="true"></i>&nbsp;&nbsp;<strong><span class="color-green">1°</span> Escoge al menos 5 unidades.</strong></small><br/><span style="font-size: 15px;"><small><u>Ten en cuenta que los productos adicionales que no pertenezcan a la promoci�n<strong>no aplican para el descuento especial</strong>, a pesar de que ya se haya cumplido la condición o regla del entorno.</u></small></span></p>
+	<p class="help-block padding-bottom"><small><i class="color-green fa <?php if(Valite_littlesteps_environment_one() == 0){ echo "fa-circle-o"; }else{Valite_littlesteps_environment_one(); echo "fa-check-circle-o"; } ?> fa-2x" aria-hidden="true"></i>&nbsp;&nbsp;<strong><span class="color-green">1°</span> Escoge al menos 5 unidades.</strong></small><br/><span style="font-size: 15px;"><small><u>Ten en cuenta que los productos adicionales que no pertenezcan a la promoci�n<strong>no aplican para el descuento especial</strong>, a pesar de que ya se haya cumplido la condición o regla del entorno.</u></small></span></p>
 
 	<div class="row">
 
