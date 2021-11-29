@@ -179,7 +179,7 @@ $var_KENKO_SEAT_REGULAR = 0;
 function Valite_littlesteps_environment_one()
 {
 	
-	header ("Refresh:0");
+	
 	$var_POWERBAND_VERDE = 0;
 	$var_POWERBAND_ROJO = 0;
 	$var_POWERBAND_LIMA = 0;
