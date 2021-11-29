@@ -1,10 +1,11 @@
 <?php
-
+include('../../functions.php');
+echo Valite_environment();
 @session_name("armatuentorno");
 @session_start();
 $product = $_POST["product"];
 $quantity = $_POST["quantity"];
-Valite_environment();
+
 list($product, $environment, $group, $brand) = explode('-', $product);
 
 //Editar producto
