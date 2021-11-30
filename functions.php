@@ -187,6 +187,7 @@ function Valite_littlesteps_environment_one()
 	$var_POWERBAND_NEGRO22 = 0;
 	$var_POWERBAND_AMARILLO = 0;
 	$var_POWERBAND_MORADA = 0;
+	$var_POWERBAND_LIMA_PAN = 0;
 
 	$counter = 0;
 	$quantity_counter = 0;
@@ -208,9 +209,10 @@ function Valite_littlesteps_environment_one()
 		    	if($product_detail == "19981"){ $var_POWERBAND_NEGRO22++; }
 		    	if($product_detail == "19982"){ $var_POWERBAND_AMARILLO++; }
 		    	if($product_detail == "19312"){ $var_POWERBAND_MORADA++; }
+		    	if($product_detail == "19307"){ $var_POWERBAND_LIMA_PAN++; }
 
 		    	$total_powerbands=0;
-		    	$total_powerbands = $var_POWERBAND_VERDE+$var_POWERBAND_ROJO+$var_POWERBAND_LIMA+$var_POWERBAND_NEGRO19+$var_POWERBAND_NEGRO22+$var_POWERBAND_AMARILLO+$var_POWERBAND_MORADA;
+		    	$total_powerbands = $var_POWERBAND_VERDE+$var_POWERBAND_ROJO+$var_POWERBAND_LIMA+$var_POWERBAND_NEGRO19+$var_POWERBAND_NEGRO22+$var_POWERBAND_AMARILLO+$var_POWERBAND_MORADA + $var_POWERBAND_LIMA_PAN;
 
 		    	if($brand_detail == 6 || $brand_detail == 9 )
 			{
