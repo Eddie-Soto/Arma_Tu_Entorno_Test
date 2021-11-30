@@ -22,8 +22,23 @@ foreach($_SESSION['products_checkout'] as $posicion => $products)
 
 $products_checkout = substr($products_checkout, 0, -1);
 
-print_r($products_checkout);
-exit;
+
+$products_seprate = explode(";", $products_checkout);
+
+$firs=0;
+
+foreach ($products_seprate as $value) {
+
+        $values = explode(':', $value);
+        if ($values[0] == "19309P") {
+                $firs="1";
+                $qty_regalo = $values[1];
+                if ($qty_regalo < 5) {
+                	
+                }
+        }
+}
+
 
 
 

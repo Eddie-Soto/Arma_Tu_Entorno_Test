@@ -193,6 +193,8 @@ function Change_quantity(product, quantity)
         data: dataString,
         success: function (data)
         {
+            
+            Condition();
             View_product();
         }
     });
