@@ -99,20 +99,21 @@ if ($country_abi==1) {
 		}
 		else
 		{
-			if($discount_abi == 1 && $country_abi == 1 && $type_abi != "cl")
+			if($discount_abi == 1 && $country_abi == 1 && $type_abi != "cl" && $rule_environment !=2)
 			{
 				?>
 				<h2><strong><span style="font-size: 15px;">TOTAL:</span> <?php echo $simbol . number_format($total, 2) ?></strong></h2>
-				<h2><strong><span style="font-size: 15px;">DESCUENTOcolo 20%:</span> -<?php echo $simbol . number_format($total_retail, 2) ?></strong></h2>
+				<h2><strong><span style="font-size: 15px;">DESCUENTO 20%:</span> -<?php echo $simbol . number_format($total_retail, 2) ?></strong></h2>
 				<h2><strong><span style="font-size: 15px;">TOTAL A PAGAR:</span> <u><?php echo $simbol . number_format($total - $total_retail, 2) ?></u></strong></h2>
 				<?php
-			}/*elseif ($rule_environment==2 and $country_abi!= 2 and $country_abi!=6) {
+			}elseif ($rule_environment==2 && $country_abi == 1 && $type_abi != "cl") {
 				?>
 				<h2><strong><span style="font-size: 15px;">TOTAL:</span> <?php echo $simbol . number_format($total, 2) ?></strong></h2>
-				<h2><strong><span style="font-size: 15px;">DESCUENTO OBSEQUIO:</span> -<?php echo $simbol . number_format($total_environment, 2) ?></strong></h2>
-				<h2><strong><span style="font-size: 15px;">TOTAL A PAGAR:</span> <u><?php echo $simbol . number_format($total - $total_retail, 2) ?></u></strong></h2>
+				<h2><strong><span style="font-size: 15px;">DESCUENTO 20%:</span> -<?php echo $simbol . number_format($total_retail, 2) ?></strong></h2>
+				<h2><strong><span style="font-size: 15px;">OBSEQUIO:</span> -<?php echo $simbol . number_format($descuento_regalo, 2) ?></strong></h2>
+				<h2><strong><span style="font-size: 15px;">TOTAL A PAGAR:</span> <u><?php echo $simbol . number_format($total - $total_retail - $descuento_regalo, 2) ?></u></strong></h2>
 				<?php
-			}*/
+			}
 			else
 			{
 				$descuento_regalo=$precio_item_country * $regalo;
