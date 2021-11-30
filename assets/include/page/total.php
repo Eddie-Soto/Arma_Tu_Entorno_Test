@@ -106,7 +106,8 @@ if ($country_abi==1) {
 				<h2><strong><span style="font-size: 15px;">DESCUENTO 20%:</span> -<?php echo $simbol . number_format($total_retail, 2) ?></strong></h2>
 				<h2><strong><span style="font-size: 15px;">TOTAL A PAGAR:</span> <u><?php echo $simbol . number_format($total - $total_retail, 2) ?></u></strong></h2>
 				<?php
-			}elseif ($rule_environment==2 && $country_abi == 1 && $type_abi != "cl") {
+			}elseif ($discount_abi == 1 && $rule_environment==2 && $country_abi == 1 && $type_abi != "cl") {
+				$descuento_regalo=$precio_item_country * $regalo;
 				?>
 				<h2><strong><span style="font-size: 15px;">TOTAL:</span> <?php echo $simbol . number_format($total, 2) ?></strong></h2>
 				<h2><strong><span style="font-size: 15px;">DESCUENTO 20%:</span> -<?php echo $simbol . number_format($total_retail, 2) ?></strong></h2>
