@@ -42,12 +42,12 @@ if($type == "TVNCI")
 {
 
 	/*Ingreso como Asesor*/
-	/*$code_abi = base64_decode($_GET["sap_code"]);
+	$code_abi = base64_decode($_GET["sap_code"]);
 	$email_abi = base64_decode($_GET["email"]);
-	$country_abi = $_GET["country"];*/
-	$code_abi='40901503';
+	$country_abi = $_GET["country"];
+	/*$code_abi='40901503';
 	$email_abi='carrasco.den@gmail.com';
-	$country_abi='1';
+	$country_abi='1';*/
 	$type_client = "ab";
 
 	/*consultar asesor*/
