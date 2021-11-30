@@ -222,7 +222,7 @@ if($environment == "STEPS")
 	<p class="help-block padding-bottom"><small><i class="color-green fa <?php if(Valite_littlesteps_environment_one() == 0){ echo "fa-circle-o"; }else{ echo "fa-check-circle-o";  } ?> fa-2x" aria-hidden="true"></i>&nbsp;&nbsp;<strong><span class="color-green">1°</span> Escoge al menos 5 unidades.</strong></small><br/><span style="font-size: 15px;"><small><u>Ten en cuenta que los productos adicionales que no pertenezcan a la promoción<strong>no aplican para el obsequio especial</strong>, a pesar de que ya se haya cumplido la condición o regla del entorno.</u></small></span></p>
 <?php
 	if(Valite_littlesteps_environment_one() == 0){
-		unset($_SESSION['products-ae']['19309P']);
+		
 	}else{
 ?>
 	<p><span style="font-size: 12px; color: red;"><small><u>Si aun no aparece tu obsequio agregado a tu carrito <strong> espera unos segundos</strong>,y enseguida podrás visualizar el obsequio que NIKKEN tiene para tí.</u></small></span></p>
