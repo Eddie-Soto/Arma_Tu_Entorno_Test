@@ -274,13 +274,13 @@ function Valite_littlesteps_environment_one()
 	{
 		
 		$_SESSION['products-ae']['19309P']="19309P-".$regalo."---";
-		
+
 		return 1;
 
 	}
 	else
 	{
-		unset($_SESSION['products-ae']['19309P']);
+		
 		unset($_SESSION['products-ae']['19309P']);
 		return 0;
 		
@@ -844,6 +844,7 @@ function Valite_environment()
 		}
 		else
 		{
+			unset($_SESSION['products-ae']['19309P']);
 			return $_SESSION['rule_environment'] = 0;
 		}
 	}
