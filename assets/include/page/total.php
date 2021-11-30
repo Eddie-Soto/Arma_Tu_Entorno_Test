@@ -43,7 +43,7 @@ if ($country_abi==1) {
 	else
 	{
 		?>
-		<small><strong>CONDICIÓN PARA <?php if($rule_environment ==2){?> OBSEQUIO <?php }else{ unset($_SESSION['products-ae']['19309P']);?> DESCUENTO <?php } ?> </strong></small>
+		<small><strong>CONDICIÓN PARA <?php if($rule_environment ==2){?> OBSEQUIO <?php }else{ ?> DESCUENTO <?php } ?> </strong></small>
 		<div class="progress">
 	      	<div data-percentage="0%" style="width: <?php if($rule_environment == 1 || $rule_environment == 2){ echo "100"; }else{ echo Valite_environment_bar(); } ?>%;" class="progress-bar progress-bar-<?php if($rule_environment == 1 || $rule_environment == 2){ echo "success"; }else{ echo "warning"; } ?> loading" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
 	    </div>

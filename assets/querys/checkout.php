@@ -22,6 +22,9 @@ foreach($_SESSION['products_checkout'] as $posicion => $products)
 
 $products_checkout = substr($products_checkout, 0, -1);
 
+print_r($products_checkout);
+exit;
+
 
 
 if($discount_abi == 1 && $country_abi == 1)
