@@ -232,7 +232,7 @@ if($environment == "STEPS")
 
 			<div class="col-lg-2 hidden-sm"></div>
 
-			<div class="col-lg-4 col-sm-6 col-xs-6 col-md-6"><div style="cursor: pointer; display: inline-block;" data-dismiss="modal"><img src="img/brands-kenko-fashion/power_band.png" onclick="Send_product_search('POWERBAND')" alt="POWERBAND"><span class="help-block text-environment">Power Band</span></div></div>
+			<div class="col-lg-4 col-sm-6 col-xs-6 col-md-6"><div style="cursor: pointer; display: inline-block;" data-dismiss="modal"><img src="img/brands-kenko-fashion/power_band.png" onclick="Send_product_search('POWERBAND')" alt="POWERBAND"><span class="help-block text-environment">PowerBand</span></div></div>
 
 			
 
