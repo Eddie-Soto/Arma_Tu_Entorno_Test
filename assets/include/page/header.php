@@ -14,10 +14,11 @@ include('../sessions.php');
           	<div class="navbar-brand visible-xs">Selecciona un Entorno</div>
         </div>
         <div class="collapse navbar-collapse">
+          <!--steps-->
           	<ul class="nav navbar-nav">
               <li <?php if($environment == "STEPS"){ echo 'class="active"'; } ?>>
                   <a href="#" class="dropdown=toggle" onclick="Change_environment('STEPS')">
-                  Promoción Little Steps &nbsp;&nbsp;<i class="fa fa-bed" aria-hidden="true"></i>
+                  Lanzamiento Little Steps &nbsp;&nbsp;<i class="fa fa-child" aria-hidden="true"></i>
                   </a>
               </li>
               

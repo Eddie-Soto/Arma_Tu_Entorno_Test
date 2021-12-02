@@ -91,7 +91,7 @@ foreach($_SESSION['products-ae'] as $posicion => $products)
 			$insert_case_code = "'EM') and H0.pais = T0.pais)";
 
 			$insert_case_code_full = "'FM') and H0.pais = T0.pais)";
-
+//littlesteps
 		}else if ($product_detail == "19300" and $product_detail == "19303" and $product_detail == "19306" and $product_detail == "19980" and $product_detail == "19981" and $product_detail == "19982") {
 
 			$insert_case = "'') and H0.pais = T0.pais), 0)";
@@ -368,7 +368,7 @@ foreach($_SESSION['products-ae'] as $posicion => $products)
 
 		        <div class="photo">
 
-		        	<button class="close" onclick="Delete_product('<?php echo $code_product ?>')" data-toggle="tooltip" data-placement="left" title="Eliminar" <?php if($code_product == "5031" || $code_product == "14412" || $code_product == "19309P"){ ?> style="display: none;" <?php } ?>><i class="color-green fa fa-times-circle" aria-hidden="true"></i></button>
+		        	<button class="close" onclick="Delete_product('<?php echo $code_product ?>')" data-toggle="tooltip" data-placement="left" title="Eliminar" <?php if($code_product == "5031" || $code_product == "14412" || $code_product == "19309P"){ //littlesteps?> style="display: none;" <?php } ?>><i class="color-green fa fa-times-circle" aria-hidden="true"></i></button>
 
 		            <img src="http://tv-store.s3.amazonaws.com/Products/images/<?php echo $image_product ?>" alt="<?php echo $name_product ?>" width="200" class="img-responsive center-block">
 
@@ -806,7 +806,7 @@ foreach($_SESSION['products-ae'] as $posicion => $products)
 
 					          	<span class="input-group-btn">
 
-					              	<button type="button" class="btn btn-default btn-number" data-type="minus" data-field="quant[<?php echo $code_product ?>-<?php echo $environment_detail ?>-<?php echo $group_detail ?>-<?php echo $brand_detail ?>]" <?php if($code_product == "5031" || $code_product == "14412"  || $code_product == "19309P"){ ?> disabled <?php } ?>>
+					              	<button type="button" class="btn btn-default btn-number" data-type="minus" data-field="quant[<?php echo $code_product ?>-<?php echo $environment_detail ?>-<?php echo $group_detail ?>-<?php echo $brand_detail ?>]" <?php if($code_product == "5031" || $code_product == "14412"  || $code_product == "19309P"){ //littlesteps?> disabled <?php } ?>>
 
 					                  	<span class="glyphicon glyphicon-minus"></span>
 
@@ -814,7 +814,7 @@ foreach($_SESSION['products-ae'] as $posicion => $products)
 
 					          	</span>
 
-					          	<input type="text" name="quant[<?php echo $code_product ?>-<?php echo $environment_detail ?>-<?php echo $group_detail ?>-<?php echo $brand_detail ?>]" class="form-control input-number" value="<?php echo $quantity_detail ?>" min="1"<?php if($code_product == "19300" || $code_product == "19303" || $code_product == "19306" || $code_product == "19980" || $code_product == "19981" || $code_product == "19982" ){ ?> max="100" <?php }else{ ?> max="10" <?php } ?>>
+					          	<input type="text" name="quant[<?php echo $code_product ?>-<?php echo $environment_detail ?>-<?php echo $group_detail ?>-<?php echo $brand_detail ?>]" class="form-control input-number" value="<?php echo $quantity_detail ?>" min="1"<?php if($code_product == "19300" || $code_product == "19303" || $code_product == "19306" || $code_product == "19980" || $code_product == "19981" || $code_product == "19982" ){ //littlesteps ?> max="100" <?php }else{ ?> max="10" <?php } ?>>
 
 					          	<span class="input-group-btn">
 

@@ -186,6 +186,7 @@ function Valite_littlesteps_environment_one()
 	$var_POWERBAND_NEGRO19 = 0;
 	$var_POWERBAND_NEGRO22 = 0;
 	$var_POWERBAND_AMARILLO = 0;
+	$var_POWERBAND_AMARILLO22 = 0;
 	$var_POWERBAND_MORADA = 0;
 	$var_POWERBAND_LIMA_PAN = 0;
 
@@ -210,9 +211,10 @@ function Valite_littlesteps_environment_one()
 		    	if($product_detail == "19982"){ $var_POWERBAND_AMARILLO++; }
 		    	if($product_detail == "19312"){ $var_POWERBAND_MORADA++; }
 		    	if($product_detail == "19307"){ $var_POWERBAND_LIMA_PAN++; }
+		    	if($product_detail == "19983"){ $var_POWERBAND_AMARILLO22++; }
 
 		    	$total_powerbands=0;
-		    	$total_powerbands = $var_POWERBAND_VERDE+$var_POWERBAND_ROJO+$var_POWERBAND_LIMA+$var_POWERBAND_NEGRO19+$var_POWERBAND_NEGRO22+$var_POWERBAND_AMARILLO+$var_POWERBAND_MORADA + $var_POWERBAND_LIMA_PAN;
+		    	$total_powerbands = $var_POWERBAND_VERDE+$var_POWERBAND_ROJO+$var_POWERBAND_LIMA+$var_POWERBAND_NEGRO19+$var_POWERBAND_NEGRO22+$var_POWERBAND_AMARILLO+$var_POWERBAND_MORADA + $var_POWERBAND_LIMA_PAN + $var_POWERBAND_AMARILLO22;
 
 		    	if($brand_detail == 6 || $brand_detail == 9 )
 			{
@@ -264,6 +266,46 @@ function Valite_littlesteps_environment_one()
 		$regalo=19;
 	}elseif ($quantity_counter >=100 and $quantity_counter<=104 ) {
 		$regalo=20;
+	}elseif ($quantity_counter >= 105 and $quantity_counter <=109) {
+		$regalo=21;
+	}elseif ($quantity_counter >=110 and $quantity_counter<=114 ) {
+		$regalo=22;
+	}elseif ($quantity_counter >=115 and $quantity_counter<=19 ) {
+		$regalo=23;
+	}elseif ($quantity_counter >=120 and $quantity_counter<=124 ) {
+		$regalo=24;
+	}elseif ($quantity_counter >=125 and $quantity_counter<=129 ) {
+		$regalo=25;
+	}elseif ($quantity_counter >=130 and $quantity_counter<=134 ) {
+		$regalo=26;
+	}elseif ($quantity_counter >=135 and $quantity_counter<=139 ) {
+		$regalo=27;
+	}elseif ($quantity_counter >=140 and $quantity_counter<=144 ) {
+		$regalo=28;
+	}elseif ($quantity_counter >=145 and $quantity_counter<=149 ) {
+		$regalo=29;
+	}elseif ($quantity_counter >=150 and $quantity_counter<=154 ) {
+		$regalo=30;
+	}elseif ($quantity_counter >=155 and $quantity_counter<=159 ) {
+		$regalo=31;
+	}elseif ($quantity_counter >=160 and $quantity_counter<=164 ) {
+		$regalo=32;
+	}elseif ($quantity_counter >=165 and $quantity_counter<=169 ) {
+		$regalo=33;
+	}elseif ($quantity_counter >=170 and $quantity_counter<=174 ) {
+		$regalo=34;
+	}elseif ($quantity_counter >=175 and $quantity_counter<=179 ) {
+		$regalo=35;
+	}elseif ($quantity_counter >=180 and $quantity_counter<=184 ) {
+		$regalo=36;
+	}elseif ($quantity_counter >=185 and $quantity_counter<=189 ) {
+		$regalo=37;
+	}elseif ($quantity_counter >=190 and $quantity_counter<=194 ) {
+		$regalo=38;
+	}elseif ($quantity_counter >=195 and $quantity_counter<=199 ) {
+		$regalo=39;
+	}elseif ($quantity_counter >=200 and $quantity_counter<=204 ) {
+		$regalo=40;
 	}else{
 		$regalo=0;
 	}
@@ -831,6 +873,7 @@ function Valite_nutrition_environment_one()
 function Valite_environment()
 {
 	//Valite_littlesteps_environment_one
+	//littlesteps
 	if($_SESSION['environment'] == "STEPS")
 	{
 		$one = Valite_littlesteps_environment_one();
@@ -956,7 +999,7 @@ function Valite_environment_bar()
 {
 
 
-
+//littlesteps
 	if($_SESSION['environment'] == "STEPS")
 	{
 

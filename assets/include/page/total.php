@@ -4,7 +4,9 @@ include('../sessions.php');
 include('../../../functions.php');
 
 //valores
+//step
 $regalo = $_SESSION["regalo"];
+//littlesteps
 $simbol = $_POST["simbol"];
 $total = $_POST["total"];
 $total_environment = $_POST["total_environment"];
@@ -17,6 +19,7 @@ $total_vc = $_POST["total_vc"];
 $total_vc_environment = $_POST["total_vc_environment"];
 $total_point = $_POST["total_point"];
 //valores
+//littlesteps
 if ($country_abi==1) {
 	$precio_item_country="76000.00 ";
 }elseif ($country_abi ==3) {
@@ -34,7 +37,7 @@ if ($country_abi==1) {
 }else{
 	$precio_item_country="0";
 }
-
+//littlesteps
 
 ?>
 <div class="col-lg-5 col-md-12 text-center condition-bar">

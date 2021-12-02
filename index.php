@@ -449,6 +449,7 @@ include('assets/include/sessions.php');
 	<script> $.idle(600, function() {window.location.href = "https://mitiendanikken.com/"; }); </script><!-- CERRAR SESION INACTIVO -->
 
 <script type="text/javascript">
+	//littlesteps
 	   //Cuando la página esté cargada completamente
   $(document).ready(function(){
     //Cada 10 segundos (10000 milisegundos) se ejecutará la función refrescar
