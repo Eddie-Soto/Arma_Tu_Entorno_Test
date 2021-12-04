@@ -236,10 +236,10 @@ if($environment == "STEPS")
 
 		</div>
 		<div class="row">
-			<div class="alert alert-warning" role="alert">
- 					<p>En <strong>ARMA TU ENTORNO</strong>, ¡Adquiere 5 PowerBand y lleva la exclusiva Power Band Little Steps de obsequio!  </p>
- 					<p>Recuerda que en la orden de compra solo podrás adquirir productos de la referencia PowerBand. </p>
- 					<p>Si deseas adquirir un producto diferente será necesario efectuar una compra independiente.</p>
+			<div class="alert alert-success" role="alert">
+ 					<p>En <strong>ARMA TU ENTORNO</strong>, &#161;Adquiere 5 PowerBand y lleva la exclusiva Power Band Little Steps de obsequio&#33;  </p>
+ 					<p>Recuerda que en la orden de compra solo podr&#225;s adquirir productos de la referencia PowerBand. </p>
+ 					<p>Si deseas adquirir un producto diferente ser&#225; necesario efectuar una compra independiente.</p>
 			</div>
 		</div>
 
