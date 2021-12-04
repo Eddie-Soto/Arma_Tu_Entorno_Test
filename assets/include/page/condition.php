@@ -220,13 +220,9 @@ if($environment == "STEPS")
 
 
 	<p class="help-block padding-bottom"><small><i class="color-green fa <?php if(Valite_littlesteps_environment_one() == 0){ echo "fa-circle-o"; }else{ echo "fa-check-circle-o";  } ?> fa-2x" aria-hidden="true"></i>&nbsp;&nbsp;<strong><span class="color-green">1¬∞</span> Escoge al menos 5 unidades.</strong></small><br/><span style="font-size: 15px;"><small><u>Ten en cuenta que los productos adicionales que no pertenezcan a la promoci√≥n,<strong> no aplican para el obsequio especial</strong></u></small></span></p>
-<?php
-	if(Valite_littlesteps_environment_one() == 0){
 
-	}else{
-?>
-	<p><span style="font-size: 12px; color: red;"><small><u>Si aun no aparece tu obsequio agregado a tu carrito <strong> espera unos segundos</strong>,y enseguida podr√°s visualizar el obsequio que NIKKEN tiene para t√≠.</u></small></span></p>
-<?php } ?>
+	
+
 
 	<div class="row">
 
@@ -238,6 +234,13 @@ if($environment == "STEPS")
 
 			<div class="col-lg-2 hidden-sm"></div>
 
+		</div>
+		<div class="row">
+			<div class="alert alert-warning" role="alert">
+ 					<p>En <strong>ARMA TU ENTORNO</strong>, °Adquiere 5 PowerBand y lleva la exclusiva Power Band Little Steps de obsequio!  </p>
+ 					<p>Recuerda que en la orden de compra solo podr·s adquirir productos de la referencia PowerBand. </p>
+ 					<p>Si deseas adquirir un producto diferente ser· necesario efectuar una compra independiente.</p>
+			</div>
 		</div>
 
 	<?php
