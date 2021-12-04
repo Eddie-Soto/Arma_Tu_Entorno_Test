@@ -451,14 +451,14 @@ include('assets/include/sessions.php');
 <script type="text/javascript">
 	//littlesteps
 	   //Cuando la página esté cargada completamente
-  $(document).ready(function(){
+ /* $(document).ready(function(){
     //Cada 10 segundos (10000 milisegundos) se ejecutará la función refrescar
     setTimeout(refrescar, 60000);
   });
   function refrescar(){
     //Actualiza la página
     location.reload();
-  }
+  }*/
 </script>
 	<!-- Librerias adicionales -->
 
