@@ -1,5 +1,9 @@
 <!-- Buscador productos -->
+<?php
+include('sessions.php');
 
+$environment = $_SESSION["environment"];
+?>
 <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" id="modal-search">
 
 	<div class="modal-dialog">
@@ -10,7 +14,9 @@
 
 				<div class="input-group col-md-12 background-green">
 
-					<input id="search" type="text" class="form-control input-lg" onkeyup="Search_product(this.value);" placeholder="Ingresa aquí el código, nombre o caracteristica del producto" autocomplete="off" autofocus />
+					<input id="search" type="text" <?php if ($environment == 'STEPS') { ?> disabled="true" <?php
+						# code...
+					} ?> class="form-control input-lg" onkeyup="Search_product(this.value);" placeholder="Ingresa aquí el código, nombre o caracteristica del producto" autocomplete="off" autofocus />
 
 					<span class="input-group-btn">
 
