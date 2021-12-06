@@ -368,7 +368,7 @@ foreach($_SESSION['products-ae'] as $posicion => $products)
 
 		        <div class="photo">
 
-		        	<button class="close" onclick="Delete_product('<?php echo $code_product ?>')" data-toggle="tooltip" data-placement="left" title="Eliminar" <?php if($code_product == "5031" || $code_product == "14412" || $code_product == "19309P"){ //littlesteps?> style="display: none;" <?php } ?>><i class="color-green fa fa-times-circle" aria-hidden="true"></i></button>
+		        	<button class="close" onclick="Delete_product('<?php echo $code_product ?>')" data-toggle="tooltip" data-placement="left" title="Eliminar" <?php if($code_product == "5031" || $code_product == "14412" || $code_product == "19309"){ //littlesteps?> style="display: none;" <?php } ?>><i class="color-green fa fa-times-circle" aria-hidden="true"></i></button>
 
 		            <img src="http://tv-store.s3.amazonaws.com/Products/images/<?php echo $image_product ?>" alt="<?php echo $name_product ?>" width="200" class="img-responsive center-block">
 
@@ -806,7 +806,7 @@ foreach($_SESSION['products-ae'] as $posicion => $products)
 
 					          	<span class="input-group-btn">
 
-					              	<button type="button" class="btn btn-default btn-number" data-type="minus" data-field="quant[<?php echo $code_product ?>-<?php echo $environment_detail ?>-<?php echo $group_detail ?>-<?php echo $brand_detail ?>]" <?php if($code_product == "5031" || $code_product == "14412"  || $code_product == "19309P"){ //littlesteps?> disabled <?php } ?>>
+					              	<button type="button" class="btn btn-default btn-number" data-type="minus" data-field="quant[<?php echo $code_product ?>-<?php echo $environment_detail ?>-<?php echo $group_detail ?>-<?php echo $brand_detail ?>]" <?php if($code_product == "5031" || $code_product == "14412"  || $code_product == "19309"){ //littlesteps?> disabled <?php } ?>>
 
 					                  	<span class="glyphicon glyphicon-minus"></span>
 
@@ -818,7 +818,7 @@ foreach($_SESSION['products-ae'] as $posicion => $products)
 
 					          	<span class="input-group-btn">
 
-					              	<button type="button" class="btn btn-default btn-number" data-type="plus" data-field="quant[<?php echo $code_product ?>-<?php echo $environment_detail ?>-<?php echo $group_detail ?>-<?php echo $brand_detail ?>]" <?php if($code_product == "5031" || $code_product == "14412" || $code_product == "19309P"){ ?> disabled <?php } ?>>
+					              	<button type="button" class="btn btn-default btn-number" data-type="plus" data-field="quant[<?php echo $code_product ?>-<?php echo $environment_detail ?>-<?php echo $group_detail ?>-<?php echo $brand_detail ?>]" <?php if($code_product == "5031" || $code_product == "14412" || $code_product == "19309"){ ?> disabled <?php } ?>>
 
 					                  	<span class="glyphicon glyphicon-plus"></span>
 

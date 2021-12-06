@@ -315,14 +315,14 @@ function Valite_littlesteps_environment_one()
 	if($counter >= 5)
 	{
 		
-		$_SESSION['products-ae']['19309P']="19309P-".$regalo."---";
+		$_SESSION['products-ae']['19309']="19309-".$regalo."---";
 		return 1;
 
 	}
 	else
 	{
 		
-		unset($_SESSION['products-ae']['19309P']);
+		unset($_SESSION['products-ae']['19309']);
 		return 0;
 		
 	}

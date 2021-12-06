@@ -531,7 +531,7 @@ if($environment == "nutrition")
 
 				<div class="col-lg-4 col-sm-4 col-xs-4 col-md-4" <?php if($country_abi == 4 || $country_abi == 5 ){ ?>style="display: none;"<?php } ?>><div style="cursor: pointer; height: 215px;"><img src="img/environment/15581.png" onclick="Send_product_search('LACTOFERRIN GOLD 1.8')" class="img-responsive center-block" alt="15581"><span class="help-block text-environment">Lactoferrin Gold 1.8</span></div></div>
 
-				<div class="col-lg-4 col-sm-4 col-xs-4 col-md-4" <?php if($country_abi == 6 || $country_abi == 7 || $country_abi == 8 || $country_abi == 10){ ?>style="display: none;"<?php } ?>><div style="cursor: pointer; height: 215px;"><img src="img/environment/Jade.png" onclick="Send_product_search('KENZEN JADE GREENZYMES CITRUS - FRASCO')" class="img-responsive center-block" alt="15581"><span class="help-block text-environment">Kenzen Jade Greenzymes Citrus</span></div></div>
+				<div class="col-lg-4 col-sm-4 col-xs-4 col-md-4" <?php if($country_abi == 6 || $country_abi == 7 || $country_abi == 8 || $country_abi == 10){ ?>style="display: none;"<?php } ?>><div style="cursor: pointer; height: 189.5px; width: 189.5px"><img src="img/environment/Jade.png" onclick="Send_product_search('KENZEN JADE GREENZYMES CITRUS - FRASCO')" class="img-responsive center-block" alt="15581"><span class="help-block text-environment">Kenzen Jade Greenzymes Citrus</span></div></div>
 
 			</div>
 
