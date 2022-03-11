@@ -129,17 +129,12 @@ foreach($_SESSION['products-ae'] as $posicion => $products)
 
 		$conn1 = connect_mk();
 
-	$sql1 = mysqli_query($conn1, "SELECT iva
-
-    FROM
-
-	    control_art_test
-
+	$sql1 = mysqli_query($conn1, "SELECT iva FROM nikkenla_marketing.control_art_test
 	        
 
 	WHERE
 
-	T0.sku = '$product_detail' AND	T0.pais = '$country_abi'") or die("0");
+	sku = '$product_detail' AND	pais = '$country_abi'") or die("0");
 
 	disconnect($conn1);
 
