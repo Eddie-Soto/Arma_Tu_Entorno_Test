@@ -288,11 +288,11 @@ foreach($_SESSION['products-ae'] as $posicion => $products)
 
         {
 
-            $total = $price_product * $iva_product;
+            $total = $price_product + $iva_product;
 
-            $total_environment = $price_environment_product * $iva_product;
+            $total_environment = $price_environment_product + $iva_product;
 
-            $total_full = $price_full_product * $iva_product;
+            $total_full = $price_full_product + $iva_product;
 
         }
 
@@ -316,7 +316,7 @@ foreach($_SESSION['products-ae'] as $posicion => $products)
 
         $total_vc = $vc_product * $quantity_detail;
 
-        $total_menudeo = ($menudeo_product * $quantity_detail) * $iva_product;
+        $total_menudeo = ($menudeo_product * $quantity_detail) + $iva_product;
 
 
 
@@ -328,7 +328,7 @@ foreach($_SESSION['products-ae'] as $posicion => $products)
 
         	$total_vc_environment = $vc_full_product * $quantity_detail;
 
-        	$total_menudeo_environment = ($menudeo_full_product * $quantity_detail) * $iva_product;
+        	$total_menudeo_environment = ($menudeo_full_product * $quantity_detail) + $iva_product;
 
 
 
@@ -344,7 +344,7 @@ foreach($_SESSION['products-ae'] as $posicion => $products)
 
         	$total_vc_environment = $vc_environment_product * $quantity_detail;
 
-        	$total_menudeo_environment = ($menudeo_environment_product * $quantity_detail) * $iva_product;
+        	$total_menudeo_environment = ($menudeo_environment_product * $quantity_detail) + $iva_product;
 
         }
 
