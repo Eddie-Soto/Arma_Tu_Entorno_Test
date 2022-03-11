@@ -1,3 +1,4 @@
+
 <?php
 
 
@@ -122,33 +123,6 @@ foreach($_SESSION['products-ae'] as $posicion => $products)
 
 		}
 
-	}
-
-	$ivanuevo=0;
-
-
-		$conn1 = connect_mk();
-
-	$sql1 = mysqli_query($conn1, "SELECT iva
-
-    FROM
-
-	    control_art_test
-
-	        
-
-	WHERE
-
-	T0.sku = '$product_detail' AND	T0.pais = '$country_abi'") or die("0");
-
-	disconnect($conn1);
-
-	$row1 = mysqli_fetch_row($sql1);
-
-	if($row1 > 0)
-
-	{
-		$ivanuevo = $row1[0];
 	}
 
 	
@@ -284,8 +258,6 @@ foreach($_SESSION['products-ae'] as $posicion => $products)
 		$code_environment_product = $row[23];
 
 		$code_full_product = $row[24];
-
-		$iva_product = $ivanuevo;
 
 
 
