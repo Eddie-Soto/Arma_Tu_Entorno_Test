@@ -494,6 +494,7 @@ function Valite_room_environment_two()
 {
 	$var_EDREDON = 0;
 	$var_ALMOHADA = 0;
+	$var_HAGU = 0;
 
 	foreach($_SESSION['products-ae'] as $posicion => $products)
 	{
@@ -508,11 +509,12 @@ function Valite_room_environment_two()
 		    	if($group_detail == "ALMOHADA"){ $var_ALMOHADA++; }
 		    	if($group_detail == "PET PAD"){ $var_EDREDON_PET++; }
 		    	if($product_detail == "1312"){ $var_ALMOHADA++; }
+		    	if($product_detail == "1256"){ $var_HAGU++; }
 		    }
 		}
 	}
 
-	if($var_EDREDON >= 1 || $var_ALMOHADA >= 1 || $var_EDREDON_PET >= 1)
+	if($var_EDREDON >= 1 || $var_ALMOHADA >= 1 || $var_EDREDON_PET >= 1 || $var_HAGU >= 1)
 	{
 		return 1;
 	}
@@ -795,6 +797,7 @@ function Valite_personal_environment_one()
 	$var_eight = 0;
 	$var_nine = 0;
 	$var_EDREDON_PET= 0;
+	$var_HAGU= 0;
 	$var_teen = 0;
 
 	$counter = 0;
@@ -817,15 +820,16 @@ function Valite_personal_environment_one()
 			if($brand_detail == 2 && ($group_detail == "ANTIFAZ" || $group_detail == "TRAVEL")){ $var_two = 1; }
 			if($brand_detail == 3 && $group_detail == "BOTELLA DEPORTIVA"){ $var_three = 1; }
 			if($product_detail == "1290"){ $var_EDREDON_PET++; }
+			if($product_detail == "1256 "){ $var_HAGU++; }
 
-			if(($brand_detail == 6 || $brand_detail == 7 || $brand_detail == 8 || $brand_detail == 9 || $brand_detail == 10) || $group_detail == "ANTIFAZ" || $group_detail == "TRAVEL" || $group_detail == "BOTELLA DEPORTIVA" || $product_detail == "1290")
+			if(($brand_detail == 6 || $brand_detail == 7 || $brand_detail == 8 || $brand_detail == 9 || $brand_detail == 10) || $group_detail == "ANTIFAZ" || $group_detail == "TRAVEL" || $group_detail == "BOTELLA DEPORTIVA" || $product_detail == "1290" || $product_detail == "1256")
 			{
 				$counter = $counter + 1 + ($quantity_detail - 1);
 			}
 	    }
 	}
 
-	$sum = $var_two + $var_three + $var_four + $var_five + $var_sex + $var_seven + $var_eight + $var_nine + $var_teen + $var_EDREDON_PET;
+	$sum = $var_two + $var_three + $var_four + $var_five + $var_sex + $var_seven + $var_eight + $var_nine + $var_teen + $var_EDREDON_PET + $var_HAGU;
 
 	if($counter >= 5)
 	{
