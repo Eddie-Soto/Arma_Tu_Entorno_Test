@@ -62,7 +62,7 @@ elseif($product == "SLEEP MASK")
 
 {
 /*2021*/
-	$insert_product = "(sku in ('16821', '1255','1290','1291','1254')) AND ";
+	$insert_product = "(sku in ('16821', '1255','1290','1291','1254','1256')) AND ";
 
 }
 
