@@ -506,7 +506,7 @@ function Valite_room_environment_two()
 		    if($value == "HABITACION")
 		    {
 		    	if($group_detail == "EDREDON"){ $var_EDREDON++; }
-		    	if($group_detail == "ALMOHADA"){ $var_ALMOHADA++; }
+		    	//if($group_detail == "ALMOHADA"){ $var_ALMOHADA++; }
 		    	if($group_detail == "PET PAD"){ $var_EDREDON_PET++; }
 		    	if($product_detail == "1312"){ $var_ALMOHADA++; }
 		    	if($product_detail == "1256"){ $var_HAGU++; }
