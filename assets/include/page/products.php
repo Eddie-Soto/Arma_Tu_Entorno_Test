@@ -91,7 +91,7 @@ foreach($_SESSION['products-ae'] as $posicion => $products)
 			$insert_case_code = "'EM') and H0.pais = T0.pais)";
 
 			$insert_case_code_full = "'FM') and H0.pais = T0.pais)";
-//littlesteps
+		//littlesteps
 		}else if ($product_detail == "19300" and $product_detail == "19303" and $product_detail == "19306" and $product_detail == "19980" and $product_detail == "19981" and $product_detail == "19982") {
 
 			$insert_case = "'') and H0.pais = T0.pais), 0)";
