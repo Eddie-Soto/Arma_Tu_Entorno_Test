@@ -258,7 +258,7 @@ include('assets/include/sessions.php');
 
 							?>
 
-							<h3 style="padding-bottom: 10px;">Â¡Selecciona el tipo de compra que deseas efectuar!</h3>
+							<h3 style="padding-bottom: 10px;">¡Selecciona el tipo de compra que deseas efectuar!</h3>
 
 							<label class="radio-inline">
 
@@ -282,7 +282,7 @@ include('assets/include/sessions.php');
 
 							?>
 
-							<h3 style="padding-bottom: 10px;">Â¡Selecciona el tipo de compra que deseas efectuar!</h3>
+							<h3 style="padding-bottom: 10px;">¡Selecciona el tipo de compra que deseas efectuar!</h3>
 
 							<label class="radio-inline">
 

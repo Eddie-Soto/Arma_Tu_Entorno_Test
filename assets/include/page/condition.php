@@ -118,6 +118,7 @@ if($environment == "room")
 			<div class="col-lg-4 col-sm-6 col-xs-6 col-md-6"><div style="cursor: pointer;"><img src="img/environment/kenkomacaron.png" onclick="Send_product_search('KENKO SLEEP MACARON')" class="img-responsive center-block" alt="KENKO DREAM MACARON"><span class="help-block text-environment">Kenko Sleep Macaron</span></div></div>
 
 			<div class="col-lg-4 col-sm-6 col-xs-6 col-md-6"><div style="cursor: pointer;"><img src="img/environment/HAGU.png" onclick="Send_product_search('KENKO SLEEP HAGU')" class="img-responsive center-block" alt="KENKO SLEEP HAGU"><span class="help-block text-environment">Kenko Sleep hagu</span></div></div>
+		<p>Texto Test</p>
 		</div>
 
 	</div>
@@ -528,7 +529,7 @@ if($environment == "nutrition")
 <!-- SE AGREGA PARA COL EL ITEM 2515 24/02/2021 -->
 				<div class="col-lg-4 col-sm-4 col-xs-4 col-md-4" <?php if($country_abi != 1){ ?>style="display: none;"<?php } ?>><div style="cursor: pointer; height: 215px;"><img src="img/environment/2515.png" onclick="Send_product_search('KENZEN NUTRIBALANCE VAINILLA AREQUIPE')" class="img-responsive center-block" alt="2515"><span class="help-block text-environment">Kenzen Nutribalance Vainilla Arequipe</span></div></div>
 
-				<!-- Se eliminaron los productos ciaga se realizo un respaldo en caso de alguna modificación -->
+				<!-- Se eliminaron los productos ciaga se realizo un respaldo en caso de alguna modificaciï¿½n -->
 				<div class="col-lg-4 col-sm-4 col-xs-4 col-md-4" <?php if($country_abi != 2){ ?>style="display: none;"<?php } ?>><div style="cursor: pointer; height: 215px;"><img src="img/environment/15556.jpg" onclick="Send_product_search('KENZEN CIAGA')" class="img-responsive center-block" alt="15556"><span class="help-block text-environment">Kenzen Ciaga Evolution</span></div></div>
 
 				<div class="col-lg-4 col-sm-4 col-xs-4 col-md-4" <?php if($country_abi == 4 || $country_abi == 5 ){ ?>style="display: none;"<?php } ?>><div style="cursor: pointer; height: 215px;"><img src="img/environment/15581.png" onclick="Send_product_search('LACTOFERRIN GOLD 1.8')" class="img-responsive center-block" alt="15581"><span class="help-block text-environment">Lactoferrin Gold 1.8</span></div></div>
