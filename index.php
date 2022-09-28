@@ -77,7 +77,7 @@ include('assets/include/sessions.php');
 				?>
 					<img src="img/col.png" align="left" width="50px" height="50px">
 					<p align="left" class="desaparece" style=" color: white; ">
-						<strong>Bienvenido(a)</strong> 
+						<strong>Bienvenido(a) Test</strong> 
 						<?php if($type_abi == "ab")
 						{ echo "Asesor de Bienestar"; }
 						elseif($type_abi == "cb")
