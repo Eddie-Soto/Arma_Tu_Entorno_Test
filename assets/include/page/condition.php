@@ -122,7 +122,7 @@ if($environment == "room")
 		</div>
 
 	</div>
-	<h2 class="page-header">*Los productos en paquetes, partes, repuestos y/o piezas no aplican para descuento en Arma tu Entorno.</h2>
+	<p class="page-header">*Los productos en paquetes, partes, repuestos y/o piezas no aplican para descuento en Arma tu Entorno.</p>
 	<?php
 
 }
