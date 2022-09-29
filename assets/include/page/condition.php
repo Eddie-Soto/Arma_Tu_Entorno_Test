@@ -198,7 +198,7 @@ if($environment == "kitchen")
 		</div>
 
 	</div>
-	<p class="page-header">*Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+	<p class="page-header">*Los productos en paquetes, partes, repuestos y/o piezas no aplican para descuento en Arma tu Entorno.</p>
 
 	<?php
 
