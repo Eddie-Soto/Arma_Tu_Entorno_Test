@@ -246,6 +246,7 @@ if($environment == "STEPS")
  					<p>Si deseas adquirir un producto diferente ser&#225; necesario efectuar una compra independiente.</p>
 			</div>
 		</div>
+		<p class="page-header">*Los productos en paquetes, partes, repuestos y/o piezas no aplican para descuento en Arma tu Entorno.</p>
 
 	<?php
 
@@ -300,6 +301,7 @@ if($environment == "office")
 		</div>
 
 	</div>
+	<p class="page-header">*Los productos en paquetes, partes, repuestos y/o piezas no aplican para descuento en Arma tu Entorno.</p>
 
 	<?php
 
@@ -352,6 +354,7 @@ if($environment == "living-room")
 		</div>
 
 	</div>
+	<p class="page-header">*Los productos en paquetes, partes, repuestos y/o piezas no aplican para descuento en Arma tu Entorno.</p>
 
 	<?php
 
@@ -415,6 +418,7 @@ if($environment == "escolar")
 		</div>
 
 	</div>
+	<p class="page-header">*Los productos en paquetes, partes, repuestos y/o piezas no aplican para descuento en Arma tu Entorno.</p>
 
 	<?php
 
@@ -489,6 +493,7 @@ if($country_abi == 10)
 		</div>
 
 	</div>
+	<p class="page-header">*Los productos en paquetes, partes, repuestos y/o piezas no aplican para descuento en Arma tu Entorno.</p>
 
 	<?php
 
@@ -542,6 +547,7 @@ if($environment == "nutrition")
 		</div>
 
 	</div>
+	<p class="page-header">*Los productos en paquetes, partes, repuestos y/o piezas no aplican para descuento en Arma tu Entorno.</p>
 
 	<?php
 
