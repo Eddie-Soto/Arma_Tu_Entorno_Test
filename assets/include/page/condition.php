@@ -118,7 +118,7 @@ if($environment == "room")
 			<div class="col-lg-4 col-sm-6 col-xs-6 col-md-6"><div style="cursor: pointer;"><img src="img/environment/kenkomacaron.png" onclick="Send_product_search('KENKO SLEEP MACARON')" class="img-responsive center-block" alt="KENKO DREAM MACARON"><span class="help-block text-environment">Kenko Sleep Macaron</span></div></div>
 
 			<div class="col-lg-4 col-sm-6 col-xs-6 col-md-6"><div style="cursor: pointer;"><img src="img/environment/HAGU.png" onclick="Send_product_search('KENKO SLEEP HAGU')" class="img-responsive center-block" alt="KENKO SLEEP HAGU"><span class="help-block text-environment">Kenko Sleep hagu</span></div></div>
-		<p>Texto Test</p>
+		<p class="page-header">Texto Test</p>
 		</div>
 
 	</div>
