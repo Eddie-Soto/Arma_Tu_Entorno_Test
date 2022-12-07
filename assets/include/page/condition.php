@@ -130,6 +130,10 @@ if ($environment == "room") {
 					<div style="cursor: pointer;"><img src="img/environment/HAGU.png" onclick="Send_product_search('KENKO SLEEP HAGU')" class="img-responsive center-block" alt="KENKO SLEEP HAGU"><span class="help-block text-environment">Kenko Sleep hagu</span></div>
 				</div>
 
+				<div class="col-lg-4 col-sm-6 col-xs-6 col-md-6">
+					<div style="cursor: pointer;"><img src="img/environment/FUKAI_Mesa_de_trabajo_1.png" onclick="Send_product_search('KENKO SLEEP FUKAI')" class="img-responsive center-block" alt="KENKO SLEEP FUKAI"><span class="help-block text-environment">Kenko Sleep Fukai</span></div>
+				</div>
+
 			</div>
 
 		</div>
