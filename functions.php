@@ -476,7 +476,8 @@ function Valite_room_environment_one()
 		}
 	}
 
-	$total = $var_KENKO_FIT + $var_COLCHON + $var_EDREDON + $var_ALMOHADA;
+	// $total = $var_KENKO_FIT + $var_COLCHON + $var_EDREDON + $var_ALMOHADA;
+	 $total = $var_KENKO_FIT + $var_COLCHON + $var_EDREDON;
 	
 	if($total > 1)
 	{
