@@ -78,7 +78,7 @@ elseif($product == "NUTRICION")
 
 {
 
-	$insert_product = "(sku in ('15553','15554','15575','15575b','15581','15472','2513','2514','15565')) AND ";
+	$insert_product = "(sku in ('15553','15554','15575','15575b','15581','15472','2513','2514','15565','13671')) AND ";
 
 }
 
@@ -92,7 +92,7 @@ elseif($product == "MAGNETIC FASHION")
 elseif($product == "Pi Water"){
 
 	// $insert_product = "(sku in ('13651','136518')) AND ";
-	$insert_product = "(sku in ('13671','136718','15553')) AND ";
+	$insert_product = "(sku in ('13671','136718')) AND ";
 }
 
 else
