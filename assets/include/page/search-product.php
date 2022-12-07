@@ -94,11 +94,6 @@ elseif($product == "Pi Water"){
 	// $insert_product = "(sku in ('13651','136518')) AND ";
 	$insert_product = "(sku in ('13671','136718','15553')) AND ";
 }
-elseif($product == "KENKO SLEEP FUKAI"){
-
-	// $insert_product = "(sku in ('13651','136518')) AND ";
-	$insert_product = "(sku in ('13671')) AND ";
-}
 
 else
 
@@ -109,6 +104,8 @@ else
 }
 
 //MOSTRAR PRODUCTOS SEGÚN PRODUCTO DEL ENTORNO
+
+
 
 //Paquetes full
 
@@ -133,6 +130,8 @@ else
 }
 
 //Paquetes full
+
+
 
 $conn = connect_mk();
 
