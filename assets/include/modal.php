@@ -106,7 +106,7 @@ $environment = $_SESSION["environment"];
 				<div style="cursor: pointer; display: inline-block;" data-dismiss="modal"><img src="img/brands-kenko-fashion/dansei.png" onclick="Send_product_search('Dansei')" alt="Dansei"></div>
 
 
-				<div style="cursor: pointer; display: inline-block;" data-dismiss="modal"><img src="img/brands-kenko-fashion/logo-nova-Ring-ATE.png" onclick="Send_product_search('KENKO FASHIO NOVA')" alt="KENKO FASHION NOVA RING"></div>
+				<div style="cursor: pointer; display: inline-block;" data-dismiss="modal"><img src="img/brands-kenko-fashion/logo-nova-Ring-ATE.png" onclick="Send_product_search('KENKO FASHION NOVA RING')" alt="KENKO FASHION NOVA RING"></div>
 
 
 
