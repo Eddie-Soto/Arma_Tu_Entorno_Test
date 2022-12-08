@@ -97,7 +97,7 @@ elseif($product == "Pi Water"){
 elseif($product == "KENKO SLEEP FUKAI"){
 
 	// $insert_product = "(sku in ('13651','136518')) AND ";
-	$insert_product = "(sku in ('1313')) AND ";
+	$insert_product = "(sku in ('1313E')) AND ";
 }
 
 else
