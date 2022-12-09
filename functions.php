@@ -801,7 +801,7 @@ function Valite_personal_environment_one()
 	$var_EDREDON_PET= 0;
 	$var_HAGU= 0;
 	$var_teen = 0;
-
+	$var_twelve = 0;
 	$counter = 0;
 	$quantity_counter = 0;
 
@@ -840,7 +840,7 @@ function Valite_personal_environment_one()
 	else
 	{
 		// return 0;
-		return $product_detail;
+		return $brand_detail;
 	}
 }
 //Validate environment office one
