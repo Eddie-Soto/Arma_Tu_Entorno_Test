@@ -823,8 +823,9 @@ function Valite_personal_environment_one()
 			if($brand_detail == 3 && $group_detail == "BOTELLA DEPORTIVA"){ $var_three = 1; }
 			if($product_detail == "1290"){ $var_EDREDON_PET++; }
 			if($product_detail == "1256 "){ $var_HAGU++; }
+			if($product_detail == "19161" || $product_detail == "19162" ){ $var_twelve++; }
 
-			if(($brand_detail == 6 || $brand_detail == 7 || $brand_detail == 8 || $brand_detail == 9 || $brand_detail == 10) || $group_detail == "ANTIFAZ" || $group_detail == "TRAVEL" || $group_detail == "BOTELLA DEPORTIVA" || $product_detail == "1290" || $product_detail == "1256")
+			if(($brand_detail == 6 || $brand_detail == 7 || $brand_detail == 8 || $brand_detail == 9 || $brand_detail == 10) || $group_detail == "ANTIFAZ" || $group_detail == "TRAVEL" || $group_detail == "BOTELLA DEPORTIVA" || $product_detail == "1290" || $product_detail == "1256" || $product_detail == "19161" || $product_detail == "19162" )
 			{
 				$counter = $counter + 1 + ($quantity_detail - 1);
 			}
