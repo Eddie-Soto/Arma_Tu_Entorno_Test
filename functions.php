@@ -809,7 +809,7 @@ function Valite_personal_environment_one()
 	foreach($_SESSION['products-ae'] as $posicion => $products)
 	{
 		list($product_detail, $quantity_detail, $environment_detail, $group_detail, $brand_detail) = explode('-', $products);
-
+		
 		if($group_detail  == "REPUESTO" || $group_detail == "")
 	    {}
 	    else
@@ -839,7 +839,8 @@ function Valite_personal_environment_one()
 	}
 	else
 	{
-		return 0;
+		// return 0;
+		return $product_detail;
 	}
 }
 //Validate environment office one
