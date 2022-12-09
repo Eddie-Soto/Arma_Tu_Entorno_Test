@@ -840,8 +840,8 @@ function Valite_personal_environment_one()
 	}
 	else
 	{
-		// return 0;
-		return $brand_detail;
+		return 0;
+		// return $brand_detail;
 	}
 }
 //Validate environment office one
