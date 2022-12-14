@@ -837,7 +837,8 @@ function Valite_personal_environment_one()
 
 	if($counter >= 5)
 	{
-		return 1;
+		//return 1;
+		return $_SESSION['products-ae']
 	}
 	else
 	{
