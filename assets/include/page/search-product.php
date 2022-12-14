@@ -140,7 +140,7 @@ else
 
 $conn = connect_mk();
 
-$sql = mysqli_query($conn, "SELECT DISTINCT sku, imagen, nombre, entorno, grupo, marca FROM (SELECT CASE WHEN full != '' THEN full else sku end AS sku, imagen as imagen, nombre as nombre, entorno as entorno, grupo as grupo, marca as marca FROM (SELECT
+$sql = mysqli_query($conn, "SELECT DISTINCT sku, imagen, nombre, entorno, grupo, marca,tipo_sap FROM (SELECT CASE WHEN full != '' THEN full else sku end AS sku, imagen as imagen, nombre as nombre, entorno as entorno, grupo as grupo, marca as marca FROM (SELECT
 
     sku as sku, imagen as imagen, nombre_original_producto as nombre, entorno as entorno, grupo as grupo, T0.marca as marca, (SELECT H0.sku FROM control_art_test H0 WHERE H0.pais = T0.pais and H0.sku = CONCAT('F', T0.sku) AND (H0.valido_desde <= DATE(NOW()) AND (H0.valido_hasta = '0000-00-00 00:00:00' OR H0.valido_hasta > DATE(NOW()))) AND H0.precio_sugerido > 0 AND H0.autoship <> 1 AND H0.esta_activo = 1 AND H0.aplica_tv = 1 AND H0.tipo_sap != 'Promoción' and SUBSTRING(H0.sku, -1) != 'E' and SUBSTRING(H0.sku, -1) != 'F' and SUBSTRING(H0.sku, -1) != 'EM' and SUBSTRING(H0.sku, -1) != 'FM' $insert_mex_full $insert_subquery_product_full) as full
 
@@ -212,7 +212,7 @@ else
 
 			?>
 
-				<li><div onclick="Add_product('<?php echo $row[0] ?>', '<?php echo $row[3] ?>', '<?php echo $row[4] ?>', '<?php echo $row[5] ?>');" style="cursor: pointer;" data-toggle="tooltip" data-placement="left" title="Agregar producto"><small><strong><?php echo $row[0] ?></strong> - <?php echo $row[2] ?></small></div></li>
+				<li><div onclick="Add_product('<?php echo $row[0] ?>', '<?php echo $row[3] ?>', '<?php echo $row[4] ?>', '<?php echo $row[5] ?>','<?php echo $row[6] ?>');" style="cursor: pointer;" data-toggle="tooltip" data-placement="left" title="Agregar producto"><small><strong><?php echo $row[0] ?></strong> - <?php echo $row[2] ?></small></div></li>
 
 			<?php
 
