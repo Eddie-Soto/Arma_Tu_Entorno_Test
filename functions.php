@@ -838,12 +838,12 @@ function Valite_personal_environment_one()
 	if($counter >= 5)
 	{
 		//return 1;
-		return $type_sap_detail;
+		return $products;
 	}
 	else
 	{
 		// return 0;
-		 return $type_sap_detail;
+		 return $brand_detail.'-'.$type_sap_detail;
 	}
 }
 //Validate environment office one
