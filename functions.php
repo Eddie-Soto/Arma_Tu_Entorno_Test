@@ -841,8 +841,8 @@ function Valite_personal_environment_one()
 	}
 	else
 	{
-		return 0;
-		// return $brand_detail;
+		// return 0;
+		 return $_SESSION['products-ae'];
 	}
 }
 //Validate environment office one

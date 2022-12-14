@@ -47,6 +47,7 @@ if($type == "TVNCI")
 	$country_abi = $_GET["country"];
 	// $code_abi='40901503';
 	// $email_abi='carrasco.den@gmail.com';
+	// $email_abi='gusalonso@yahoo.com';
 	// $country_abi='1';
 	$type_client = "ab";
 
