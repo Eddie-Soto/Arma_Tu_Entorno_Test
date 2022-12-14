@@ -808,7 +808,7 @@ function Valite_personal_environment_one()
 
 	foreach($_SESSION['products-ae'] as $posicion => $products)
 	{
-		list($product_detail, $quantity_detail, $environment_detail, $group_detail, $brand_detail,$type_sap_detail) = explode('-', $products);
+		list($product_detail, $quantity_detail, $environment_detail, $group_detail, $brand_detail) = explode('-', $products);
 		
 		if($group_detail  == "REPUESTO" || $group_detail == "")
 	    {}
@@ -838,12 +838,12 @@ function Valite_personal_environment_one()
 	if($counter >= 5)
 	{
 		//return 1;
-		return $type_sap_detail;
+		return $_SESSION['products-ae'];
 	}
 	else
 	{
 		// return 0;
-		 return $products;
+		 $products;
 	}
 }
 //Validate environment office one
