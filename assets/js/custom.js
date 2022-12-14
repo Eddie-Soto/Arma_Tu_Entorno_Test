@@ -142,7 +142,7 @@ function Search_product(value)
 //Añadir producto
 function Add_product(product, environment, group, brand,type_sap)
 {
-    var dataString =  'product=' + product + '&environment=' + environment + '&group=' + group + '&brand=' + brand+'&type_sap'+ $type_sap;
+    var dataString =  'product=' + product + '&environment=' + environment + '&group=' + group + '&brand=' + brand+'&type_sap'+ type_sap;
     var divMensaje = document.getElementById("search-product");
     divMensaje.innerHTML='<br/><img src="img/loading.gif" width="40" height="40" class="center-block"/>';
 
