@@ -523,7 +523,8 @@ if ($environment == "STEPS") {
 				?>
 
 					<p class="help-block padding-bottom"><small><i class="color-green fa <?php if (Valite_personal_environment_one() == 0) {
-																								echo "fa-circle-o";
+																								//echo "fa-circle-o";
+																								echo Valite_personal_environment_one();
 																							} else {
 																								//echo "fa-check-circle-o";
 																								echo Valite_personal_environment_one();
