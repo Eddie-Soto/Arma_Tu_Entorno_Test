@@ -843,7 +843,7 @@ function Valite_personal_environment_one()
 	else
 	{
 		// return 0;
-		 return $_SESSION['products-ae'];
+		 $products;
 	}
 }
 //Validate environment office one
