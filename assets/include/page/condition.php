@@ -527,7 +527,7 @@ if ($environment == "STEPS") {
 																								echo Valite_personal_environment_one();
 																							} else {
 																								//echo "fa-check-circle-o";
-																								echo Valite_personal_environment_one();
+																								 Valite_personal_environment_one();
 																							} ?> fa-2x" aria-hidden="true"></i>&nbsp;&nbsp;<strong><span class="color-green">1°</span> Escoge al menos 5 unidades de cualquier producto de las marcas abajo relacionadas. Puedes combinar o puede ser de la misma referencia.</strong></small><br /><span style="font-size: 15px;"><small><u>Ten en cuenta que los productos adicionales que no pertenezcan al Entorno Personal <strong>no aplican para el descuento especial</strong>, a pesar de que ya se haya cumplido la condición o regla del entorno.</u></small></span></p>
 				<?php
 				}
