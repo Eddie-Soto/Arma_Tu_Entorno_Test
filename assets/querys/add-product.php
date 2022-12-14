@@ -8,9 +8,10 @@ $product = $_POST["product"];
 $environment_product = $_POST["environment"];
 $group = $_POST["group"];
 $brand = $_POST["brand"];
+$type_sap = $_POST["type_sap"];
 
 //Agregar producto
-$_SESSION['products-ae']["$product"]="$product-1-$environment_product-$group-$brand";
+$_SESSION['products-ae']["$product"]="$product-1-$environment_product-$group-$brand-$type_sap";
 //Agregar producto
 
 //Validar reglas de entorno
