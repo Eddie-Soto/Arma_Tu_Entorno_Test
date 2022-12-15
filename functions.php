@@ -843,7 +843,7 @@ function Valite_personal_environment_one()
 	else
 	{
 		// return 0;
-		 return $type_sap_detail;
+		 return $brand_detail;
 	}
 }
 //Validate environment office one
