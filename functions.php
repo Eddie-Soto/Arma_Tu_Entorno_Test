@@ -810,7 +810,13 @@ function Valite_personal_environment_one()
 	{
 		list($product_detail, $quantity_detail, $environment_detail, $group_detail, $brand_detail, $type_sap_detail) = explode('-', $products);
 		
-		if($group_detail  == "REPUESTO" || $group_detail == "" || $type_sap_detail =='Promoción' )
+		$type_sap_detail = str_replace(
+			array('Ó', 'Ò', 'Ö', 'Ô', 'ó', 'ò', 'ö', 'ô'),
+			array('O', 'O', 'O', 'O', 'o', 'o', 'o', 'o'),
+			$type_sap_detail );
+		$type_sap = strtoupper($type_sap_detail);
+
+		if($group_detail  == "REPUESTO" || $group_detail == "" || $type_sap == 'PROMOCION' )
 	    {}
 	    else
 	    {
