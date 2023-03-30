@@ -646,7 +646,11 @@ if ($environment == "STEPS") {
 						<div class="col-lg-4 col-sm-4 col-xs-4 col-md-4" <?php if ($country_abi == 6 || $country_abi == 7 || $country_abi == 8 || $country_abi == 10) { ?>style="display: none;" <?php } ?>>
 							<div style="cursor: pointer; height: 215px;"><img src="img/environment/Jade.png" width="189" height="189" onclick="Send_product_search('KENZEN JADE GREENZYMES CITRUS - FRASCO')" class="img-responsive center-block" alt="15581"><span class="help-block text-environment">Kenzen Jade Greenzymes Citrus</span></div>
 						</div>
-
+						<?php if($country_abi == 3) {?>
+							<div class="col-lg-4 col-sm-4 col-xs-4 col-md-4">
+								<div style="cursor: pointer; height: 215px;"><img src="img/environment/Jade.png" width="189" height="189" onclick="Send_product_search('KENZEN NUTRI BALANCE')" class="img-responsive center-block" alt="15581"><span class="help-block text-environment">Nutribalance</span></div>
+						   </div>
+						<?php }?>
 					</div>
 
 				</div>
