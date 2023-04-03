@@ -20,7 +20,7 @@ Valite_environment();
 			<div>
 				<img src="https://storage.googleapis.com/proyectos_latam/Incorporacionweb/images_varios_micrositios/ate/ate1.png" 
 				alt=""
-				style="width: 100%;">
+				style="width: 40%;">
 			</div>
 		</div>
 		
