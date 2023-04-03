@@ -84,7 +84,7 @@ function Condition(environment)
         }
     }
 
-    ajax.open("POST", "assets/include/page/condition.php", true);
+    ajax.open("POST", "assets/include/page/condition2.php", true);
     ajax.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
     ajax.send("environment=" + environment);
     //ajax.send();
