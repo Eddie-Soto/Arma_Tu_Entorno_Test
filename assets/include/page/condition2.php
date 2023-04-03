@@ -29,6 +29,8 @@ Valite_environment();
 				<button> KENKO THERM</button>
 
 			</div>
+
+			<p>*Los códigos en paquetes, sets, partes, repuestos y/o piezas no aplican para el descuento especial en accesorios.</p>
 		</div>
 		
 
