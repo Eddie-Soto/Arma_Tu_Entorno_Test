@@ -68,7 +68,7 @@ include('assets/include/sessions.php');
 
 <body>
 
-<div class="fluid-container">
+<div class="fluid-container" >
 
 	<header>
 		<div class="row">

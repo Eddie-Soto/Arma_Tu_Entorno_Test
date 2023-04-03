@@ -16,8 +16,10 @@ Valite_environment();
 
 	<!-- //Escolar -->
 	<!-- if ($environment == "personal") { -->
-		<div class="cotenedor" style="background-color: red;">
-			<h2>test</h2>
+		<div class="contenedor">
+			<div>
+				<img src="https://storage.googleapis.com/proyectos_latam/Incorporacionweb/images_varios_micrositios/ate/ate1.png" alt="">
+			</div>
 		</div>
 		
 
