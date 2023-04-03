@@ -19,7 +19,7 @@ Valite_environment();
 
 		
 
-			<h2>Condición mínima para <strong>Armar tu entorno Personal</strong><span tabindex="0" role="button" data-html="true" data-toggle="popover" data-trigger="focus" data-placement="bottom" title="<b>Entorno Personal</b>" data-content='<div class="text-justify"><img src="img/office.png" alt="Personal" style="float: left; padding: 0 10px 0 0"><small>Es el ambiente que acompaña y caracteriza a cada individuo. Cada persona elige cómo construir su entorno, en el que intervienen aspectos como hábitos de alimentación, actividades, prácticas deportivas, imagen personal, y la forma cómo se interactúa con cada espacio físico.</small></div>'>
+			<!-- <h2>Condición mínima para <strong>Armar tu entorno Personal</strong><span tabindex="0" role="button" data-html="true" data-toggle="popover" data-trigger="focus" data-placement="bottom" title="<b>Entorno Personal</b>" data-content='<div class="text-justify"><img src="img/office.png" alt="Personal" style="float: left; padding: 0 10px 0 0"><small>Es el ambiente que acompaña y caracteriza a cada individuo. Cada persona elige cómo construir su entorno, en el que intervienen aspectos como hábitos de alimentación, actividades, prácticas deportivas, imagen personal, y la forma cómo se interactúa con cada espacio físico.</small></div>'>
 
 					<i style="color:#333; cursor: pointer;" class="fa fa-info-circle" aria-hidden="true" data-toggle="tooltip" data-placement="left" title="Información sobre el entorno"></i></span></h2>
 
@@ -96,8 +96,8 @@ Valite_environment();
 
 				</div>
 
-			</div>
-			<p class="page-header">*Los productos en paquetes, partes, repuestos y/o piezas no aplican para descuento en Arma tu Entorno.</p>
+			<!-- </div>
+			<p class="page-header">*Los productos en paquetes, partes, repuestos y/o piezas no aplican para descuento en Arma tu Entorno.</p> --> -->
 
 
 		<!-- Funcionalida popover -->
