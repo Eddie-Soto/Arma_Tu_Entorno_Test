@@ -24,9 +24,9 @@ Valite_environment();
 			</div>
 			<p class="text_one_ate">Adquiere mínimo 3 productos de las marcas Kenko Balance, Kenko Fashion, Kenkotherm y disfruta del 15% de descuento. </p>
 			<div class="buttons_ate">
-				<button class="btn btn-outline-info"> KENKO FASHION</button>
-				<button class="btn btn-outline-info"> KENKO BALANCE</button>
-				<button class="btn btn-outline-info"> KENKO THERM</button>
+				<button class="btn btn-info"> KENKO FASHION</button>
+				<button class="btn btn-info"> KENKO BALANCE</button>
+				<button class="btn btn-info"> KENKO THERM</button>
 
 			</div>
 
