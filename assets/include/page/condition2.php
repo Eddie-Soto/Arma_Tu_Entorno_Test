@@ -16,7 +16,7 @@ Valite_environment();
 
 	<!-- //Escolar -->
 	<!-- if ($environment == "personal") { -->
-		<div class="cotenedor">
+		<div class="cotenedor" style="background-color: red;">
 			<h2>test</h2>
 		</div>
 		
