@@ -24,9 +24,9 @@ Valite_environment();
 			</div>
 			<p class="text_one_ate mb-3 mt-3">Adquiere mínimo 3 productos de las marcas Kenko Balance, Kenko Fashion, Kenkotherm y disfruta del 15% de descuento. </p>
 			<div class="buttons_ate">
-				<button class="btn btn-default btn-lg btn-block"> <img class="img_btn" src="https://storage.googleapis.com/proyectos_latam/Incorporacionweb/images_varios_micrositios/ate/kenko-fashion.png" alt=""></button>
-				<button class="btn btn-default btn-lg btn-block"> <img class="img_btn" src="https://storage.googleapis.com/proyectos_latam/Incorporacionweb/images_varios_micrositios/ate/kenko-balance.png" alt=""></button>
-				<button class="btn btn-default btn-lg btn-block"> <img class="img_btn" src="https://storage.googleapis.com/proyectos_latam/Incorporacionweb/images_varios_micrositios/ate/kenko-therm.png" alt=""></button>
+				<button class="btn btn-default btn-lg btn-block" onclick="Send_product_search('KENKO FASHION')"> <img class="img_btn" src="https://storage.googleapis.com/proyectos_latam/Incorporacionweb/images_varios_micrositios/ate/kenko-fashion.png" alt=""></button>
+				<button class="btn btn-default btn-lg btn-block" onclick="Send_product_search('KENKO BALANCE')"> <img class="img_btn" src="https://storage.googleapis.com/proyectos_latam/Incorporacionweb/images_varios_micrositios/ate/kenko-balance.png" alt=""></button>
+				<button class="btn btn-default btn-lg btn-block" onclick="Send_product_search('KENKO THERM')"> <img class="img_btn" src="https://storage.googleapis.com/proyectos_latam/Incorporacionweb/images_varios_micrositios/ate/kenko-therm.png" alt=""></button>
 
 			</div>
 
