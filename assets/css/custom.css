@@ -202,7 +202,8 @@ section{
 
 .color-green{
 
-	color: #609A4B !important;
+	/* color: #609A4B !important; */
+    color: #0039c0 !important;
 
 }
 
@@ -1496,9 +1497,14 @@ background-image: none;
 
     color: white !important;
 
-    background-color: #609A4B !important;
+    /* background-color: #609A4B !important;
 
-    border-color: #609A4B !important
+    border-color: #609A4B !important */
+
+    background-color: #0039c0 !important;
+
+    border-color: #0039c0 !important
+
 
 }
 
