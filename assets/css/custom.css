@@ -1738,7 +1738,10 @@ background-image: linear-gradient(45deg, rgba(235, 235, 235, 0.15) 25%, rgba(0, 
     width: 80% !important;
 }
 .buttons_ate{
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding: 2rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
