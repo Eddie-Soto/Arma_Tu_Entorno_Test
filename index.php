@@ -213,11 +213,11 @@ include('assets/include/sessions.php');
 
 	</header>
 
-	<hr class="line">
+	
 
 	<div id="header-navbar" <?php if($country_abi == 9){ echo 'style="display: none;"'; } ?>></div>
 
-	<hr>
+	<hr class="line">
 
 	<!-- Header -->
 
