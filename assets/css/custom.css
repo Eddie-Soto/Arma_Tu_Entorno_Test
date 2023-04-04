@@ -180,8 +180,8 @@ section{
 
 .line{
 
-    border: 5px solid #609A4B;
-
+    /* border: 5px solid #609A4B; */
+    border: 5px solid #0039c0;
     padding: 0;
 
     margin: 0;
