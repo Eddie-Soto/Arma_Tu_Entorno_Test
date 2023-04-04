@@ -225,7 +225,7 @@ include('assets/include/sessions.php');
 
 		<div class="row">
 
-			<div <?php if($country_abi == 9){ ?> class="col-lg-12 text-center" <?php }else{ ?> class="col-lg-4 col-md-4 col-sm-5 col-xs-12 text-center" <?php } ?>>
+			<div <?php if($country_abi == 9){ ?> class="col-lg-12 text-center" <?php }else{ ?> class="col-lg-6 col-md-6 col-sm-6 col-xs-12 text-center" <?php } ?>>
 
 
 				<!-- Mostrar condiciones -->
@@ -236,7 +236,7 @@ include('assets/include/sessions.php');
 
 			</div>
 
-			<div <?php if($country_abi == 9){ ?> class="col-lg-12"<?php }else{ ?> class="col-lg-8 col-md-8 col-sm-7 col-xs-12"<?php } ?>>
+			<div <?php if($country_abi == 9){ ?> class="col-lg-12"<?php }else{ ?> class="col-lg-6 col-md-6 col-sm-6 col-xs-12"<?php } ?>>
 
 				<!-- Mostrar tipos de descuentos -->
 
