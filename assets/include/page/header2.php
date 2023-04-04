@@ -8,3 +8,4 @@ include('../sessions.php');
         <h1>Accesorios</h1>
   	</div>
 </div>
+<hr class="line">

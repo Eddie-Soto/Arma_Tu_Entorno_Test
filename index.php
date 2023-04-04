@@ -217,7 +217,7 @@ include('assets/include/sessions.php');
 
 	<div id="header-navbar" <?php if($country_abi == 9){ echo 'style="display: none;"'; } ?>></div>
 
-	<hr class="line">
+
 
 	<!-- Header -->
 
