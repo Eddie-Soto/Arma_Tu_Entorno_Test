@@ -22,7 +22,7 @@ Valite_environment();
 				alt=""
 				style="width: 40%;">
 			</div>
-			<p class="text_one_ate">Adquiere mínimo 3 productos de las marcas Kenko Balance, Kenko Fashion, Kenkotherm y disfruta del 15% de descuento. </p>
+			<p class="text_one_ate mb-3 mt-3">Adquiere mínimo 3 productos de las marcas Kenko Balance, Kenko Fashion, Kenkotherm y disfruta del 15% de descuento. </p>
 			<div class="buttons_ate">
 				<button class="btn btn-default btn-lg btn-block"> <img class="img_btn" src="https://storage.googleapis.com/proyectos_latam/Incorporacionweb/images_varios_micrositios/ate/kenko-fashion.png" alt=""></button>
 				<button class="btn btn-default btn-lg btn-block"> <img class="img_btn" src="https://storage.googleapis.com/proyectos_latam/Incorporacionweb/images_varios_micrositios/ate/kenko-balance.png" alt=""></button>
@@ -30,7 +30,7 @@ Valite_environment();
 
 			</div>
 
-			<p class="text_two_ate">*Los códigos en paquetes, sets, partes, repuestos y/o piezas no aplican para el descuento especial en accesorios.</p>
+			<p class="text_two_ate mt-3 mb-3">*Los códigos en paquetes, sets, partes, repuestos y/o piezas no aplican para el descuento especial en accesorios.</p>
 		</div>
 		
 
