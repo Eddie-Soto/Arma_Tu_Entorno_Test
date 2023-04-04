@@ -1735,11 +1735,12 @@ background-image: linear-gradient(45deg, rgba(235, 235, 235, 0.15) 25%, rgba(0, 
 
 .btn-default{
     border-color:#3c2409 !important;
+    width: 80% !important;
 }
 .buttons_ate{
     text-align: center;
     padding: 2rem;
-    width: 80%;
+
     margin-top: 1rem;
     margin-bottom: 1rem;
     margin-top: 2rem !important;
