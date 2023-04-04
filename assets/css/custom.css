@@ -1726,7 +1726,7 @@ background-image: linear-gradient(45deg, rgba(235, 235, 235, 0.15) 25%, rgba(0, 
 
 .img_btn{
     width: 80% !important;
-    filter: invert(27%) sepia(69%) saturate(518%) hue-rotate(351deg) brightness(95%) contrast(90%);
+    filter: invert(26%) sepia(61%) saturate(567%) hue-rotate(351deg) brightness(104%) contrast(90%);
     transition: filter 0.3s ease;
 }
 .img_btn:hover{
