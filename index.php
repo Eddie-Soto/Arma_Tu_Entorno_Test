@@ -203,7 +203,7 @@ include('assets/include/sessions.php');
 				} ?>
 			</div>
 			<div class="col-sm-4 col-xs-3">
-				<img class="logo-size" src="img/logo_white<?php if($country_abi == 9){ echo "_nikken"; } ?>.png"  alt="Nikken Latinoamérica"/>
+				<!-- <img class="logo-size" src="img/logo_white<?php if($country_abi == 9){ echo "_nikken"; } ?>.png"  alt="Nikken Latinoamérica"/> -->
 			</div>
 			<div class="col-sm-4 col-xs-6">
 				<a title="Cerrar sessión" href="delete-session.php"><img align="right" src="img/nw.png" width="65px" height="45px" alt="Cerrar sessión"/></a>
