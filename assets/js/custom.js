@@ -56,7 +56,7 @@ function Header(environment)
         }
     }
 
-    ajax.open("POST", "assets/include/page/header.php", true);
+    ajax.open("POST", "assets/include/page/header2.php", true);
     ajax.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
     ajax.send("environment=" + environment);
     //ajax.send();
