@@ -1478,11 +1478,13 @@ background-image: none;
 
 {
 
-    color: #609A4B !important;
+    /* color: #609A4B !important; */
+    color: #0039c0;
 
     background-color: #fff;
 
-    border-color: #609A4B !important
+    /* border-color: #609A4B !important */
+    border-color: #0039c0;
 
 }
 
