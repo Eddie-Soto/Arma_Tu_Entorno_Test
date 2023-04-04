@@ -59,8 +59,8 @@
 		.alertify-button-ok,
 		.alertify-button-ok:hover,
 		.alertify-button-ok:focus {
-			background-color: #0039c0;
-			border: 1px solid #12378f;
+			background-color: #0039c0 !important;
+			border: 1px solid #12378f !important;
 		}
 
 .alertify-log {
