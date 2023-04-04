@@ -332,11 +332,11 @@ include('assets/include/sessions.php');
 
 				<div class="row text-center">
 
-					<hr style="border: 1px solid #609A4B; border-style: dashed; margin: 10px;">
+					<hr style="border: 1px solid #0039c0; border-style: dashed; margin: 10px;">
 
 					<div class="color-green" style="cursor: pointer;" data-toggle="modal" data-target=".bs-example-modal-lg"><i class="fa fa-shopping-basket fa-4x" aria-hidden="true"></i><br/><strong><small>Agregar producto</small></strong></div>
 
-					<hr style="border: 1px solid #609A4B; border-style: dashed; margin: 10px;">
+					<hr style="border: 1px solid #0039c0; border-style: dashed; margin: 10px;">
 
 				</div>
 
