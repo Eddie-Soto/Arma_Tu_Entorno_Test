@@ -1772,6 +1772,6 @@ background-image: linear-gradient(45deg, rgba(235, 235, 235, 0.15) 25%, rgba(0, 
     align-items: center;
 }
 .btn-ate{
-    border-radius: 10px;
+    border-radius: 50px;
     padding: 1rem;
 }
