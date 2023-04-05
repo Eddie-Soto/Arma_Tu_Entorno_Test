@@ -16,6 +16,7 @@ Valite_environment();
 
 	<!-- //Escolar -->
 	<!-- if ($environment == "personal") { -->
+		<?php $environment = 'personal' ?>
 		<div class="contenedor" style="margin-top:2rem;">
 			<div>
 				<img src="https://storage.googleapis.com/proyectos_latam/Incorporacionweb/images_varios_micrositios/ate/ate1.png" 
