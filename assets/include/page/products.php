@@ -111,13 +111,13 @@ foreach($_SESSION['products-ae'] as $posicion => $products)
 		{
 
 			// $insert_case = "'E') and H0.pais = T0.pais), 0)";
-			$insert_case = "'O') and H0.pais = T0.pais), 0)";
+			$insert_case = "'E') and H0.pais = T0.pais), 0)";
 			$insert_case_full = "'F') and H0.pais = T0.pais), 0)";
 
 
 
 			// $insert_case_code = "'E') and H0.pais = T0.pais)";
-			$insert_case_code = "'O') and H0.pais = T0.pais)";
+			$insert_case_code = "'E') and H0.pais = T0.pais)";
 
 			$insert_case_code_full = "'F') and H0.pais = T0.pais)";
 
