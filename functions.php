@@ -890,7 +890,7 @@ function Valite_environment()
 {
 	//Valite_littlesteps_environment_one
 	//littlesteps
-	$_SESSION['environment'] = 'personal';
+	// $_SESSION['environment'] = 'personal';
 	if($_SESSION['environment'] == "STEPS")
 	{
 		$one = Valite_littlesteps_environment_one();
