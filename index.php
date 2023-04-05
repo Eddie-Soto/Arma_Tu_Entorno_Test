@@ -221,7 +221,7 @@ include('assets/include/sessions.php');
 
 	<!-- Header -->
 
-	<section>
+	<section style="margin-top: 3rem;">
 
 		<div class="row">
 
