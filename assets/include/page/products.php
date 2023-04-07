@@ -82,13 +82,15 @@ foreach($_SESSION['products-ae'] as $posicion => $products)
 
 		{
 
-			$insert_case = "'EM') and H0.pais = T0.pais), 0)";
+			// $insert_case = "'EM') and H0.pais = T0.pais), 0)";
+			$insert_case = "'OM') and H0.pais = T0.pais), 0)";
 
 			$insert_case_full = "'FM') and H0.pais = T0.pais), 0)";
 
 
 
-			$insert_case_code = "'EM') and H0.pais = T0.pais)";
+			// $insert_case_code = "'EM') and H0.pais = T0.pais)";
+			$insert_case_code = "'OM') and H0.pais = T0.pais)";
 
 			$insert_case_code_full = "'FM') and H0.pais = T0.pais)";
 		//littlesteps
