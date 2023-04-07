@@ -610,14 +610,15 @@ function Valite_kitchen_environment_one()
 	{
 		list($product_detail, $quantity_detail, $environment_detail, $group_detail) = explode('-', $products);
 
-		$valor_array = explode(',', str_replace(" ", "", $environment_detail));
-		foreach($valor_array as $llave => $value)
-		{
-		    if($value == "COCINA")
-		    {
-		    	if($group_detail == "SISTEMA DE AGUA"){ $var_SISTEMA_DE_AGUA++; }
-		    }
-		}
+		if($product_detail == '1846') $var_SISTEMA_DE_AGUA++;
+		// $valor_array = explode(',', str_replace(" ", "", $environment_detail));
+		// foreach($valor_array as $llave => $value)
+		// {
+		//     if($value == "COCINA")
+		//     {
+		//     	if($group_detail == "SISTEMA DE AGUA"){ $var_SISTEMA_DE_AGUA++; }
+		//     }
+		// }
 	}
 
 	if($var_SISTEMA_DE_AGUA >= 1)
@@ -940,10 +941,10 @@ function Valite_environment()
 	if($_SESSION['environment'] == "kitchen")
 	{
 		$one = Valite_kitchen_environment_one();
-		$two = Valite_kitchen_environment_two();
+		// $two = Valite_kitchen_environment_two();
 
-		$total = $one + $two;
-		if($total == 2)
+		$total = $one;
+		if($total == 1)
 		{
 			return $_SESSION['rule_environment'] = 1;
 		}
