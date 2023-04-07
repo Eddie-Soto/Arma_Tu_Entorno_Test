@@ -609,8 +609,8 @@ function Valite_kitchen_environment_one()
 	foreach($_SESSION['products-ae'] as $posicion => $products)
 	{
 		list($product_detail, $quantity_detail, $environment_detail, $group_detail) = explode('-', $products);
-		$sku_approved = ['1846','1280']
-		if($arreglo.includes($sku_approved)) $var_SISTEMA_DE_AGUA++;
+		$sku_approved = ['1846','1280'];
+		if($sku_approved.find($product_detail)) $var_SISTEMA_DE_AGUA++;
 		// $valor_array = explode(',', str_replace(" ", "", $environment_detail));
 		// foreach($valor_array as $llave => $value)
 		// {

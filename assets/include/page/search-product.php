@@ -142,7 +142,7 @@ $conn = connect_mk();
 
 $sql = mysqli_query($conn, "SELECT DISTINCT sku, imagen, nombre, entorno, grupo, marca, tipo_sap FROM (SELECT CASE WHEN full != '' THEN full else sku end AS sku, imagen as imagen, nombre as nombre, entorno as entorno, grupo as grupo, marca as marca ,tipo_sap as tipo_sap FROM (SELECT
 
-    sku as sku, imagen as imagen, nombre_original_producto as nombre, entorno as entorno, grupo as grupo, T0.marca as marca, tipo_sap as tipo_sap, (SELECT H0.sku FROM control_art_test H0 WHERE H0.pais = T0.pais and H0.sku = CONCAT('F', T0.sku) AND (H0.valido_desde <= DATE(NOW()) AND (H0.valido_hasta = '0000-00-00 00:00:00' OR H0.valido_hasta > DATE(NOW()))) AND H0.precio_sugerido > 0 AND H0.autoship <> 1 AND H0.esta_activo = 1 AND H0.aplica_tv = 1 AND H0.tipo_sap != 'Promoción' and SUBSTRING(H0.sku, -1) != 'E' and SUBSTRING(H0.sku, -1) != 'F' and SUBSTRING(H0.sku, -1) != 'EM' and SUBSTRING(H0.sku, -1) != 'FM' $insert_mex_full $insert_subquery_product_full) as full
+    sku as sku, imagen as imagen, nombre_original_producto as nombre, entorno as entorno, grupo as grupo, T0.marca as marca, tipo_sap as tipo_sap, (SELECT H0.sku FROM control_art_test H0 WHERE H0.pais = T0.pais and H0.sku = CONCAT('F', T0.sku) AND (H0.valido_desde <= DATE(NOW()) AND (H0.valido_hasta = '0000-00-00 00:00:00' OR H0.valido_hasta > DATE(NOW()))) AND H0.precio_sugerido > 0 AND H0.autoship <> 1 AND H0.esta_activo = 1 AND H0.aplica_tv = 1 AND H0.tipo_sap != 'Promoción' and SUBSTRING(H0.sku, -1) != 'O' and SUBSTRING(H0.sku, -1) != 'F' and SUBSTRING(H0.sku, -1) != 'OM' and SUBSTRING(H0.sku, -1) != 'FM' $insert_mex_full $insert_subquery_product_full) as full
 
 FROM
 
@@ -164,7 +164,7 @@ AND T0.esta_activo = 1
 
 AND T0.aplica_tv = 1
 
-AND SUBSTRING(sku, -1) != 'E' and SUBSTRING(sku, -1) != 'F' and SUBSTRING(sku, -1) != 'EM' and SUBSTRING(sku, -1) != 'FM' $insert_mex $insert_product_full LIMIT 20) AS query) as subquery") or die("0");
+AND SUBSTRING(sku, -1) != 'O' and SUBSTRING(sku, -1) != 'F' and SUBSTRING(sku, -1) != 'OM' and SUBSTRING(sku, -1) != 'FM' $insert_mex $insert_product_full LIMIT 20) AS query) as subquery") or die("0");
 
 disconnect($conn);
 
