@@ -27,7 +27,7 @@ Valite_environment();
 			<div class="buttons_ate">
 				<button class="btn btn-default btn-lg btn-block btn-ate" onclick="Send_product_search('KENKO FASHION')"> <img class="img_btn" src="https://storage.googleapis.com/proyectos_latam/Incorporacionweb/images_varios_micrositios/ate/kenko-fashion.png" alt=""></button>
 				<button class="btn btn-default btn-lg btn-block btn-ate" onclick="Send_product_search('KENKO BALANCE')"> <img class="img_btn" src="https://storage.googleapis.com/proyectos_latam/Incorporacionweb/images_varios_micrositios/ate/kenko-balance.png" alt=""></button>
-				<button class="btn btn-default btn-lg btn-block btn-ate" onclick="Send_product_search('KENKO THERM')"> <img class="img_btn" src="https://storage.googleapis.com/proyectos_latam/Incorporacionweb/images_varios_micrositios/ate/kenko-therm.png" alt=""></button>
+				<button class="btn btn-default btn-lg btn-block btn-ate" onclick="Send_product_search('KENKOTHERM')"> <img class="img_btn" src="https://storage.googleapis.com/proyectos_latam/Incorporacionweb/images_varios_micrositios/ate/kenko-therm.png" alt=""></button>
 
 			</div>
 

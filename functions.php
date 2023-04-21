@@ -605,23 +605,26 @@ function Valite_room_environment_three()
 function Valite_kitchen_environment_one()
 {
 	$var_SISTEMA_DE_AGUA = 0;
+	$sku_approved=['1498','19091','19092','19093','19094','19127','19128','19130','19132','19137','19138','19139','1913','19143','19144','19146','19171','19172','19191','19211','19221','19231','19232','19234','19235','19236','19237','19238','19239','19251','19300','19303','19306','19307','19309','19980','19981','19982','1280','1281','13201','1321','14471','1450','1453','1454','1462','1767','1768','1769','1770','20201','20211','1751','1752','1753','1754','1821','1822','1823','1824','1825','1831','1832','1833','1834','1835','1844','1845','1846','191264','19126','19129','1912','19141','1910','19119','1488','19161','19162','19233','19081','19082','19083','19084','19088','19133','19134','19135','1842','1843','19983'];
 
 	foreach($_SESSION['products-ae'] as $posicion => $products)
 	{
 		list($product_detail, $quantity_detail, $environment_detail, $group_detail) = explode('-', $products);
-		$sku_approved = ['1846','1280'];
-		if($sku_approved.find($product_detail)) $var_SISTEMA_DE_AGUA++;
-		// $valor_array = explode(',', str_replace(" ", "", $environment_detail));
-		// foreach($valor_array as $llave => $value)
-		// {
-		//     if($value == "COCINA")
-		//     {
-		//     	if($group_detail == "SISTEMA DE AGUA"){ $var_SISTEMA_DE_AGUA++; }
-		//     }
-		// }
+		if(in_array($product_detail,$sku_approved))
+		{
+			if($quantity_detail >= 2){
+				$var_SISTEMA_DE_AGUA += $quantity_detail;
+			}else{
+				$var_SISTEMA_DE_AGUA++;
+			}
+		    // if($value == "COCINA")
+		    // {
+		    // 	if($group_detail == "SISTEMA DE AGUA"){ $var_SISTEMA_DE_AGUA++; }
+		    // }
+		}
 	}
 
-	if($var_SISTEMA_DE_AGUA >= 3)
+	if($var_SISTEMA_DE_AGUA >= 2)
 	{
 		return 1;
 	}
@@ -636,22 +639,28 @@ function Valite_kitchen_environment_one()
 function Valite_kitchen_environment_two()
 {
 	$var_OPTIMIZER = 0;
+	$sku_approved=['1498','19091','19092','19093','19094','19127','19128','19130','19132','19137','19138','19139','1913','19143','19144','19146','19171','19172','19191','19211','19221','19231','19232','19234','19235','19236','19237','19238','19239','19251','19300','19303','19306','19307','19309','19980','19981','19982','1280','1281','13201','1321','14471','1450','1453','1454','1462','1767','1768','1769','1770','20201','20211','1751','1752','1753','1754','1821','1822','1823','1824','1825','1831','1832','1833','1834','1835','1844','1845','1846','191264','19126','19129','1912','19141','1910','19119','1488','19161','19162','19233','19081','19082','19083','19084','19088','19133','19134','19135','1842','1843','19983'];
 
 	foreach($_SESSION['products-ae'] as $posicion => $products)
 	{
 		list($product_detail, $quantity_detail, $environment_detail, $group_detail) = explode('-', $products);
 
 		$valor_array = explode(',', str_replace(" ", "", $environment_detail));
-		foreach($valor_array as $llave => $value)
+		if(in_array($product_detail,$sku_approved))
 		{
-		    if($value == "COCINA")
-		    {
-		    	if($group_detail == "OPTIMIZER"){ $var_OPTIMIZER++; }
-		    }
+			if($quantity_detail >= 2){
+				$var_OPTIMIZER += $quantity_detail;
+			}else{
+				$var_OPTIMIZER++;
+			}
+		    // if($value == "COCINA")
+		    // {
+		    // 	if($group_detail == "SISTEMA DE AGUA"){ $var_SISTEMA_DE_AGUA++; }
+		    // }
 		}
 	}
 
-	if($var_OPTIMIZER >= 1)
+	if($var_OPTIMIZER >= 3)
 	{
 		return 1;
 	}
