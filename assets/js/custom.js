@@ -152,6 +152,7 @@ function Add_product(product, environment, group, brand,type_sap)
         data: dataString,
         success: function (data)
         {
+            console.log(data);
             $('#modal-search').modal('hide');
             View_product();
             alertify.success("Producto agregado");
