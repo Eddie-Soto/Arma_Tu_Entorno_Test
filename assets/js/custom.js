@@ -297,7 +297,8 @@ function Checkout()
         data: dataString,
         success: function (data)
         {
-            document.location.href = data;
+            // document.location.href = data;
+            console.log(data);
         }
     });
 
