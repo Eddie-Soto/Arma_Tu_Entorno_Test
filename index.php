@@ -298,7 +298,7 @@ include('assets/include/sessions.php');
 
 							<?php
 
-						}
+						}*/
 
 						?>
 
